@@ -1,4 +1,4 @@
-Google Containers Registry thanos Mirrors [last sync 2024-10-31 12:37:12]
+Google Containers Registry thanos Mirrors [last sync 2024-10-31 13:05:08]
 -------
 
 [![thanos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-thanos.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-thanos.yml)
@@ -24,14 +24,14 @@ Total of 8's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | thanos | 2464 | - | 2024-10-31 12:37:08 |
-| 2 | thanosbench | 8 | - | 2024-10-31 12:37:08 |
-| 3 | docker-swift-onlyone-authv2-keystone | 1 | - | 2024-10-31 12:37:08 |
-| 4 | prom-label-proxy | 1 | - | 2024-10-31 12:37:08 |
-| 5 | thanos-linux-arm64 | 1106 | - | 2024-10-31 12:37:08 |
-| 6 | thanos-linux-amd64 | 1107 | - | 2024-10-31 12:37:12 |
-| 7 | prometheus | 3 | - | 2024-10-31 12:37:12 |
-| 8 | thanos-ci | 9 | - | 2024-10-31 12:37:12 |
+| 1 | thanos | 2464 | - | 2024-10-31 13:05:05 |
+| 2 | thanosbench | 8 | - | 2024-10-31 13:05:05 |
+| 3 | docker-swift-onlyone-authv2-keystone | 1 | - | 2024-10-31 13:05:05 |
+| 4 | prom-label-proxy | 1 | - | 2024-10-31 13:05:05 |
+| 5 | thanos-linux-arm64 | 1106 | - | 2024-10-31 13:05:07 |
+| 6 | thanos-linux-amd64 | 1107 | - | 2024-10-31 13:05:08 |
+| 7 | prometheus | 3 | - | 2024-10-31 13:05:08 |
+| 8 | thanos-ci | 9 | - | 2024-10-31 13:05:08 |
 
 Support
 -------
