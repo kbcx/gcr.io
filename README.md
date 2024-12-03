@@ -1,7 +1,7 @@
-Google Containers Registry cassandra Mirrors [last sync 2024-12-03 04:36:29]
+Google Containers Registry dns Mirrors [last sync 2024-12-03 06:31:38]
 -------
 
-[![cassandra](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-cassandra.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-cassandra.yml)
+[![dns](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull cassandra/hyperkube:v1.9.6
+docker pull dns/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -24,116 +24,116 @@ Total of 110's registry.k8s.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | cassandra | 6 | - | 2024-12-03 04:22:29 |
-| 2 | cassandra-e2e-test | 1 | - | 2024-12-03 04:22:29 |
-| 3 | check-metadata-concealment | 3 | - | 2024-12-03 04:22:29 |
-| 4 | cloud-controller-manager | 301 | - | 2024-12-03 04:26:37 |
-| 5 | cloud-controller-manager-amd64 | 301 | - | 2024-12-03 04:26:37 |
-| 6 | cloud-controller-manager-arm | 301 | - | 2024-12-03 04:29:51 |
-| 7 | cloud-controller-manager-arm64 | 301 | - | 2024-12-03 04:29:51 |
-| 8 | cloud-controller-manager-ppc64le | 301 | - | 2024-12-03 04:33:37 |
-| 9 | cloud-controller-manager-s390x | 301 | - | 2024-12-03 04:33:46 |
-| 10 | cloud-provider-gcp-cloud-controller-manager | 5 | - | 2024-12-03 04:33:46 |
-| 11 | cloud-provider-gcp-gcp-compute-persistent-disk-csi-driver | 116 | - | 2024-12-03 04:33:46 |
-| 12 | cloud-provider-gcp-gcp-filestore-csi-driver | 83 | - | 2024-12-03 04:34:03 |
-| 13 | cloud-provider-ibm-ibm-powervs-block-csi-driver | 11 | - | 2024-12-03 04:34:03 |
-| 14 | cloud-provider-ibm-ibm-vpc-block-csi-driver | 8 | - | 2024-12-03 04:34:03 |
-| 15 | cloudsql-authenticator | 1 | - | 2024-12-03 04:34:03 |
-| 16 | cluster-api-aure-cluster-api-azure-controller | 45 | - | 2024-12-03 04:34:26 |
-| 17 | cluster-api-aws-cluster-api-aws-controller | 80 | - | 2024-12-03 04:34:26 |
-| 18 | cluster-api-aws-cluster-api-aws-controller-amd64 | 1 | - | 2024-12-03 04:34:26 |
-| 19 | cluster-api-aws-cluster-api-aws-controller-arm | 1 | - | 2024-12-03 04:34:26 |
-| 20 | cluster-api-aws-cluster-api-aws-controller-arm64 | 1 | - | 2024-12-03 04:34:26 |
-| 21 | cluster-api-aws-cluster-api-aws-controller-ppc64le | 1 | - | 2024-12-03 04:34:26 |
-| 22 | cluster-api-aws-cluster-api-aws-controller-s390x | 1 | - | 2024-12-03 04:34:26 |
-| 23 | cluster-api-aws-eks-bootstrap-controller | 11 | - | 2024-12-03 04:34:26 |
-| 24 | cluster-api-aws-eks-controlplane-controller | 10 | - | 2024-12-03 04:34:26 |
-| 25 | cluster-api-azure-cluster-api-azure-controller | 126 | - | 2024-12-03 04:34:26 |
-| 26 | cluster-api-do-cluster-api-do-controller | 22 | - | 2024-12-03 04:34:30 |
-| 27 | cluster-api-gcp-cluster-api-gcp-controller | 23 | - | 2024-12-03 04:34:30 |
-| 28 | cluster-api-helm-cluster-api-helm-controller | 16 | - | 2024-12-03 04:34:30 |
-| 29 | cluster-api-nested-cluster-api-nested-controller | 1 | - | 2024-12-03 04:34:30 |
-| 30 | cluster-api-nested-nested-controlplane-controller | 1 | - | 2024-12-03 04:34:30 |
-| 31 | cluster-api-vsphere-cluster-api-vsphere-controller | 77 | - | 2024-12-03 04:34:30 |
-| 32 | cluster-api-cluster-api-controller | 182 | - | 2024-12-03 04:34:30 |
-| 33 | cluster-api-cluster-api-controller-amd64 | 1 | - | 2024-12-03 04:34:30 |
-| 34 | cluster-api-cluster-api-controller-arm | 1 | - | 2024-12-03 04:34:30 |
-| 35 | cluster-api-cluster-api-controller-arm64 | 1 | - | 2024-12-03 04:34:30 |
-| 36 | cluster-api-cluster-api-controller-ppc64le | 1 | - | 2024-12-03 04:34:30 |
-| 37 | cluster-api-cluster-api-controller-s390x | 1 | - | 2024-12-03 04:34:30 |
-| 38 | cluster-api-clusterctl | 99 | - | 2024-12-03 04:34:30 |
-| 39 | cluster-api-kubeadm-bootstrap-controller | 164 | - | 2024-12-03 04:34:31 |
-| 40 | cluster-api-kubeadm-control-plane-controller | 164 | - | 2024-12-03 04:34:31 |
-| 41 | cluster-api-plantuml | 1 | - | 2024-12-03 04:34:31 |
-| 42 | cluster-autoscaler | 135 | - | 2024-12-03 04:35:48 |
-| 43 | cluster-proportional-autoscaler-amd64 | 26 | - | 2024-12-03 04:35:48 |
-| 44 | cluster-proportional-autoscaler-arm | 15 | - | 2024-12-03 04:35:48 |
-| 45 | cluster-proportional-autoscaler-arm64 | 15 | - | 2024-12-03 04:35:48 |
-| 46 | cluster-proportional-autoscaler-ppc64le | 15 | - | 2024-12-03 04:35:48 |
-| 47 | clusterapi-tester | 1 | - | 2024-12-03 04:35:48 |
-| 48 | clusterregistry | 1 | - | 2024-12-03 04:35:48 |
-| 49 | conformance | 644 | - | 2024-12-03 04:35:48 |
-| 50 | conformance-amd64 | 644 | - | 2024-12-03 04:35:48 |
-| 51 | conformance-arm | 547 | - | 2024-12-03 04:35:48 |
-| 52 | conformance-arm64 | 644 | - | 2024-12-03 04:35:48 |
-| 53 | conformance-ppc64le | 644 | - | 2024-12-03 04:35:48 |
-| 54 | conformance-s390x | 644 | - | 2024-12-03 04:35:48 |
-| 55 | coredns | 30 | - | 2024-12-03 04:35:48 |
-| 56 | cos-kernel-headers | 17 | - | 2024-12-03 04:35:48 |
-| 57 | cos-nvidia-driver-install | 11 | - | 2024-12-03 04:35:48 |
-| 58 | cpa-cluster-proportional-autoscaler | 9 | - | 2024-12-03 04:35:48 |
-| 59 | cpa-cluster-proportional-autoscaler-amd64 | 4 | - | 2024-12-03 04:35:48 |
-| 60 | cpa-cluster-proportional-autoscaler-arm | 4 | - | 2024-12-03 04:35:48 |
-| 61 | cpa-cluster-proportional-autoscaler-arm64 | 4 | - | 2024-12-03 04:35:48 |
-| 62 | cpa-cluster-proportional-autoscaler-ppc64le | 4 | - | 2024-12-03 04:35:48 |
-| 63 | cpa-cpvpa | 1 | - | 2024-12-03 04:35:48 |
-| 64 | cpa-cpvpa-amd64 | 2 | - | 2024-12-03 04:35:48 |
-| 65 | cpa-cpvpa-arm | 2 | - | 2024-12-03 04:35:48 |
-| 66 | cpa-cpvpa-arm64 | 2 | - | 2024-12-03 04:35:48 |
-| 67 | cpa-cpvpa-ppc64le | 2 | - | 2024-12-03 04:35:48 |
-| 68 | cpvpa-amd64 | 6 | - | 2024-12-03 04:35:48 |
-| 69 | csi-secrets-store-driver | 40 | - | 2024-12-03 04:35:48 |
-| 70 | csi-secrets-store-driver-crds | 28 | - | 2024-12-03 04:35:48 |
-| 71 | csi-csi-attacher | 1 | - | 2024-12-03 04:35:48 |
-| 72 | csi-csi-node-driver-registrar | 2 | - | 2024-12-03 04:35:48 |
-| 73 | csi-csi-provisioner | 1 | - | 2024-12-03 04:35:48 |
-| 74 | csi-csi-resizer | 2 | - | 2024-12-03 04:35:48 |
-| 75 | csi-csi-snapshotter | 2 | - | 2024-12-03 04:35:48 |
-| 76 | csi-livenessprobe | 1 | - | 2024-12-03 04:35:48 |
-| 77 | csi-mock-driver | 2 | - | 2024-12-03 04:35:48 |
-| 78 | cuda-vector-add | 1 | - | 2024-12-03 04:35:48 |
-| 79 | custom-metrics-stackdriver-adapter | 15 | - | 2024-12-03 04:35:48 |
-| 80 | debian-base | 7 | - | 2024-12-03 04:35:48 |
-| 81 | debian-base-amd64 | 12 | - | 2024-12-03 04:35:48 |
-| 82 | debian-base-arm | 12 | - | 2024-12-03 04:35:48 |
-| 83 | debian-base-arm64 | 12 | - | 2024-12-03 04:35:48 |
-| 84 | debian-base-ppc64le | 12 | - | 2024-12-03 04:35:48 |
-| 85 | debian-base-s390x | 12 | - | 2024-12-03 04:35:49 |
-| 86 | debian-hyperkube-base | 4 | - | 2024-12-03 04:35:49 |
-| 87 | debian-hyperkube-base-amd64 | 16 | - | 2024-12-03 04:35:54 |
-| 88 | debian-hyperkube-base-arm | 16 | - | 2024-12-03 04:35:56 |
-| 89 | debian-hyperkube-base-arm64 | 16 | - | 2024-12-03 04:35:59 |
-| 90 | debian-hyperkube-base-ppc64le | 16 | - | 2024-12-03 04:36:00 |
-| 91 | debian-hyperkube-base-s390x | 16 | - | 2024-12-03 04:36:03 |
-| 92 | debian-iptables | 8 | - | 2024-12-03 04:36:07 |
-| 93 | debian-iptables-amd64 | 19 | - | 2024-12-03 04:36:07 |
-| 94 | debian-iptables-arm | 19 | - | 2024-12-03 04:36:14 |
-| 95 | debian-iptables-arm64 | 19 | - | 2024-12-03 04:36:15 |
-| 96 | debian-iptables-ppc64le | 19 | - | 2024-12-03 04:36:19 |
-| 97 | debian-iptables-s390x | 15 | - | 2024-12-03 04:36:19 |
-| 98 | defaultbackend | 5 | - | 2024-12-03 04:36:19 |
-| 99 | defaultbackend-amd64 | 5 | - | 2024-12-03 04:36:19 |
-| 100 | defaultbackend-arm | 5 | - | 2024-12-03 04:36:20 |
-| 101 | defaultbackend-arm64 | 5 | - | 2024-12-03 04:36:20 |
-| 102 | defaultbackend-ppc64le | 4 | - | 2024-12-03 04:36:20 |
-| 103 | defaultbackend-s390x | 2 | - | 2024-12-03 04:36:20 |
-| 104 | descheduler-descheduler | 26 | - | 2024-12-03 04:36:20 |
-| 105 | device-plugin-gpu | 20 | - | 2024-12-03 04:36:29 |
-| 106 | dns-pod-autoscaler | 1 | - | 2024-12-03 04:36:29 |
-| 107 | dns-rc-autoscaler | 2 | - | 2024-12-03 04:36:29 |
-| 108 | dns-k8s-dns-dnsmasq-nanny | 40 | - | 2024-12-03 04:36:29 |
-| 109 | dns-k8s-dns-dnsmasq-nanny-amd64 | 40 | - | 2024-12-03 04:36:29 |
-| 110 | dns-k8s-dns-dnsmasq-nanny-arm | 40 | - | 2024-12-03 04:36:29 |
+| 1 | dns-k8s-dns-dnsmasq-nanny-arm64 | 40 | - | 2024-12-03 06:28:44 |
+| 2 | dns-k8s-dns-dnsmasq-nanny-ppc64le | 40 | - | 2024-12-03 06:28:45 |
+| 3 | dns-k8s-dns-dnsmasq-nanny-s390x | 40 | - | 2024-12-03 06:28:45 |
+| 4 | dns-k8s-dns-kube-dns | 40 | - | 2024-12-03 06:28:45 |
+| 5 | dns-k8s-dns-kube-dns-amd64 | 40 | - | 2024-12-03 06:28:45 |
+| 6 | dns-k8s-dns-kube-dns-arm | 40 | - | 2024-12-03 06:28:45 |
+| 7 | dns-k8s-dns-kube-dns-arm64 | 40 | - | 2024-12-03 06:28:46 |
+| 8 | dns-k8s-dns-kube-dns-ppc64le | 40 | - | 2024-12-03 06:28:46 |
+| 9 | dns-k8s-dns-kube-dns-s390x | 40 | - | 2024-12-03 06:28:46 |
+| 10 | dns-k8s-dns-node-cache | 47 | - | 2024-12-03 06:28:47 |
+| 11 | dns-k8s-dns-node-cache-amd64 | 47 | - | 2024-12-03 06:28:47 |
+| 12 | dns-k8s-dns-node-cache-arm | 47 | - | 2024-12-03 06:28:47 |
+| 13 | dns-k8s-dns-node-cache-arm64 | 47 | - | 2024-12-03 06:28:47 |
+| 14 | dns-k8s-dns-node-cache-ppc64le | 47 | - | 2024-12-03 06:28:47 |
+| 15 | dns-k8s-dns-node-cache-s390x | 47 | - | 2024-12-03 06:28:48 |
+| 16 | dns-k8s-dns-sidecar | 40 | - | 2024-12-03 06:28:48 |
+| 17 | dns-k8s-dns-sidecar-amd64 | 40 | - | 2024-12-03 06:28:48 |
+| 18 | dns-k8s-dns-sidecar-arm | 40 | - | 2024-12-03 06:28:48 |
+| 19 | dns-k8s-dns-sidecar-arm64 | 40 | - | 2024-12-03 06:28:48 |
+| 20 | dns-k8s-dns-sidecar-ppc64le | 40 | - | 2024-12-03 06:28:49 |
+| 21 | dns-k8s-dns-sidecar-s390x | 40 | - | 2024-12-03 06:28:49 |
+| 22 | dnsmasq | 2 | - | 2024-12-03 06:28:49 |
+| 23 | dnsmasq-amd64 | 1 | - | 2024-12-03 06:28:49 |
+| 24 | dnsmasq-metrics-amd64 | 2 | - | 2024-12-03 06:28:50 |
+| 25 | dnsmasq-metrics-arm | 1 | - | 2024-12-03 06:28:50 |
+| 26 | dnsmasq-metrics-arm64 | 1 | - | 2024-12-03 06:28:50 |
+| 27 | dnsmasq-metrics-ppc64le | 1 | - | 2024-12-03 06:28:50 |
+| 28 | dnsutils | 3 | - | 2024-12-03 06:28:52 |
+| 29 | e2e-net-amd64 | 1 | - | 2024-12-03 06:28:52 |
+| 30 | e2e-test-images-agnhost | 29 | - | 2024-12-03 06:28:52 |
+| 31 | e2e-test-images-apparmor-loader | 4 | - | 2024-12-03 06:28:52 |
+| 32 | e2e-test-images-busybox | 5 | - | 2024-12-03 06:28:52 |
+| 33 | e2e-test-images-cuda-vector-add | 4 | - | 2024-12-03 06:28:52 |
+| 34 | e2e-test-images-echoserver | 3 | - | 2024-12-03 06:28:56 |
+| 35 | e2e-test-images-glusterdynamic-provisioner | 2 | - | 2024-12-03 06:28:56 |
+| 36 | e2e-test-images-httpd | 8 | - | 2024-12-03 06:28:56 |
+| 37 | e2e-test-images-ipc-utils | 2 | - | 2024-12-03 06:28:58 |
+| 38 | e2e-test-images-jessie-dnsutils | 5 | - | 2024-12-03 06:28:58 |
+| 39 | e2e-test-images-kitten | 3 | - | 2024-12-03 06:28:58 |
+| 40 | e2e-test-images-metadata-concealment | 2 | - | 2024-12-03 06:28:58 |
+| 41 | e2e-test-images-nautilus | 3 | - | 2024-12-03 06:28:58 |
+| 42 | e2e-test-images-nginx | 11 | - | 2024-12-03 06:29:08 |
+| 43 | e2e-test-images-node-perf-npb-ep | 2 | - | 2024-12-03 06:29:08 |
+| 44 | e2e-test-images-node-perf-npb-is | 2 | - | 2024-12-03 06:29:08 |
+| 45 | e2e-test-images-node-perf-tf-wide-deep | 3 | - | 2024-12-03 06:29:08 |
+| 46 | e2e-test-images-nonewprivs | 2 | - | 2024-12-03 06:29:08 |
+| 47 | e2e-test-images-nonroot | 3 | - | 2024-12-03 06:29:08 |
+| 48 | e2e-test-images-perl | 1 | - | 2024-12-03 06:29:08 |
+| 49 | e2e-test-images-pets-peer-finder | 1 | - | 2024-12-03 06:29:08 |
+| 50 | e2e-test-images-pets-redis-installer | 1 | - | 2024-12-03 06:29:08 |
+| 51 | e2e-test-images-pets-zookeeper-installer | 1 | - | 2024-12-03 06:29:08 |
+| 52 | e2e-test-images-redis | 3 | - | 2024-12-03 06:29:08 |
+| 53 | e2e-test-images-regression-issue-74839 | 1 | - | 2024-12-03 06:29:08 |
+| 54 | e2e-test-images-resource-consumer | 6 | - | 2024-12-03 06:29:08 |
+| 55 | e2e-test-images-sample-apiserver | 6 | - | 2024-12-03 06:29:08 |
+| 56 | e2e-test-images-sample-device-plugin | 4 | - | 2024-12-03 06:29:08 |
+| 57 | e2e-test-images-volume-gluster | 2 | - | 2024-12-03 06:29:08 |
+| 58 | e2e-test-images-volume-iscsi | 5 | - | 2024-12-03 06:29:10 |
+| 59 | e2e-test-images-volume-nfs | 3 | - | 2024-12-03 06:29:10 |
+| 60 | e2e-test-images-volume-rbd | 3 | - | 2024-12-03 06:29:10 |
+| 61 | echoserver | 11 | - | 2024-12-03 06:29:12 |
+| 62 | echoserver-amd64 | 3 | - | 2024-12-03 06:29:12 |
+| 63 | echoserver-arm | 1 | - | 2024-12-03 06:29:12 |
+| 64 | echoserver-ppc64le | 1 | - | 2024-12-03 06:29:12 |
+| 65 | elasticsearch | 21 | - | 2024-12-03 06:29:27 |
+| 66 | eptest | 1 | - | 2024-12-03 06:29:27 |
+| 67 | etcd | 112 | - | 2024-12-03 06:29:27 |
+| 68 | etcd-amd64 | 76 | - | 2024-12-03 06:30:00 |
+| 69 | etcd-arm | 42 | - | 2024-12-03 06:30:00 |
+| 70 | etcd-arm64 | 40 | - | 2024-12-03 06:30:23 |
+| 71 | etcd-empty-dir-cleanup | 21 | - | 2024-12-03 06:30:23 |
+| 72 | etcd-ppc64le | 40 | - | 2024-12-03 06:30:46 |
+| 73 | etcd-s390x | 39 | - | 2024-12-03 06:30:46 |
+| 74 | etcd-statefulset-e2e-test | 1 | - | 2024-12-03 06:30:46 |
+| 75 | etcd-version-monitor | 5 | - | 2024-12-03 06:30:46 |
+| 76 | etcd-version-monitor-shyamjvs | 1 | - | 2024-12-03 06:30:46 |
+| 77 | etcd_monitor_shyamjvs | 1 | - | 2024-12-03 06:30:46 |
+| 78 | etcd_probe_shyamjvs | 1 | - | 2024-12-03 06:30:46 |
+| 79 | etcd_version_monitor | 1 | - | 2024-12-03 06:30:46 |
+| 80 | etcd_version_monitor_shyamjvs | 1 | - | 2024-12-03 06:30:46 |
+| 81 | etcdadm-etcd-backup | 19 | - | 2024-12-03 06:31:11 |
+| 82 | etcdadm-etcd-dump | 19 | - | 2024-12-03 06:31:19 |
+| 83 | etcdadm-etcd-manager | 20 | - | 2024-12-03 06:31:33 |
+| 84 | etcdadm-etcd-manager-slim | 4 | - | 2024-12-03 06:31:33 |
+| 85 | event-exporter | 19 | - | 2024-12-03 06:31:33 |
+| 86 | example-dns-backend | 1 | - | 2024-12-03 06:31:33 |
+| 87 | example-dns-frontend | 1 | - | 2024-12-03 06:31:33 |
+| 88 | example-guestbook-php-redis | 2 | - | 2024-12-03 06:31:33 |
+| 89 | exechealthz | 3 | - | 2024-12-03 06:31:33 |
+| 90 | exechealthz-amd64 | 5 | - | 2024-12-03 06:31:33 |
+| 91 | exechealthz-arm | 5 | - | 2024-12-03 06:31:34 |
+| 92 | exechealthz-arm64 | 4 | - | 2024-12-03 06:31:34 |
+| 93 | exechealthz-ppc64le | 4 | - | 2024-12-03 06:31:34 |
+| 94 | exechealthz-s390x | 2 | - | 2024-12-03 06:31:34 |
+| 95 | experimental-conformance | 4 | - | 2024-12-03 06:31:36 |
+| 96 | experimental-conformance-amd64 | 5 | - | 2024-12-03 06:31:36 |
+| 97 | experimental-conformance-arm | 4 | - | 2024-12-03 06:31:36 |
+| 98 | experimental-conformance-arm64 | 4 | - | 2024-12-03 06:31:36 |
+| 99 | experimental-conformance-ppc64le | 4 | - | 2024-12-03 06:31:36 |
+| 100 | experimental-conformance-s390x | 4 | - | 2024-12-03 06:31:36 |
+| 101 | experimental-kube-apiserver | 4 | - | 2024-12-03 06:31:37 |
+| 102 | experimental-kube-apiserver-amd64 | 2 | - | 2024-12-03 06:31:37 |
+| 103 | experimental-kube-apiserver-arm | 4 | - | 2024-12-03 06:31:37 |
+| 104 | experimental-kube-apiserver-arm64 | 2 | - | 2024-12-03 06:31:37 |
+| 105 | experimental-kube-apiserver-ppc64le | 2 | - | 2024-12-03 06:31:37 |
+| 106 | experimental-kube-apiserver-s390x | 2 | - | 2024-12-03 06:31:37 |
+| 107 | experimental-kube-scheduler-arm | 2 | - | 2024-12-03 06:31:38 |
+| 108 | experimental-kube-scheduler-arm64 | 2 | - | 2024-12-03 06:31:38 |
+| 109 | experimental-kube-scheduler-ppc64le | 2 | - | 2024-12-03 06:31:38 |
+| 110 | experimental-kube-scheduler-s390x | 2 | - | 2024-12-03 06:31:38 |
 
 Support
 -------
