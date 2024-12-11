@@ -1,7 +1,7 @@
-Google Containers Registry security-profiles-operator Mirrors [last sync 2024-12-10 22:16:38]
+Google Containers Registry addon-builder Mirrors [last sync 2024-12-11 01:32:28]
 -------
 
-[![security-profiles-operator](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml)
+[![addon-builder](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-addon-builder.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-addon-builder.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull security-profiles-operator/hyperkube:v1.9.6
+docker pull addon-builder/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -18,118 +18,122 @@ From docker hub Mirrors:
 docker pull registryk8s/hyperkube:v1.9.6
 ```
 
-Total of 106's registry.k8s.io images
+Total of 110's registry.k8s.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | security-profiles-operator-security-profiles-operator-catalog | 11 | - | 2024-12-10 22:14:17 |
-| 2 | serve-hostname-amd64 | 1 | - | 2024-12-10 22:14:17 |
-| 3 | serve-hostname-arm | 1 | - | 2024-12-10 22:14:17 |
-| 4 | serve-hostname-arm64 | 1 | - | 2024-12-10 22:14:17 |
-| 5 | serve-hostname-ppc64le | 1 | - | 2024-12-10 22:14:17 |
-| 6 | serve-hostname-s390x | 1 | - | 2024-12-10 22:14:17 |
-| 7 | serve_hostname | 6 | - | 2024-12-10 22:14:19 |
-| 8 | serve_hostname-amd64 | 1 | - | 2024-12-10 22:14:19 |
-| 9 | serve_hostname-arm | 1 | - | 2024-12-10 22:14:19 |
-| 10 | serve_hostname-arm64 | 1 | - | 2024-12-10 22:14:19 |
-| 11 | serve_hostname-ppc64le | 1 | - | 2024-12-10 22:14:19 |
-| 12 | serve_hostname-s390x | 1 | - | 2024-12-10 22:14:19 |
-| 13 | servicelb | 4 | - | 2024-12-10 22:14:20 |
-| 14 | shame-mailer | 5 | - | 2024-12-10 22:14:20 |
-| 15 | shyamjvs-logexp | 1 | - | 2024-12-10 22:14:20 |
-| 16 | shyamjvs-prometheus-to-sd | 1 | - | 2024-12-10 22:14:20 |
-| 17 | sig-auth-pod-security-webhook | 3 | - | 2024-12-10 22:14:21 |
-| 18 | sig-storage-csi-attacher | 26 | - | 2024-12-10 22:14:21 |
-| 19 | sig-storage-csi-external-health-monitor-agent | 2 | - | 2024-12-10 22:14:21 |
-| 20 | sig-storage-csi-external-health-monitor-controller | 14 | - | 2024-12-10 22:14:21 |
-| 21 | sig-storage-csi-node-driver-registrar | 26 | - | 2024-12-10 22:14:23 |
-| 22 | sig-storage-csi-provisioner | 38 | - | 2024-12-10 22:14:23 |
-| 23 | sig-storage-csi-resizer | 25 | - | 2024-12-10 22:14:36 |
-| 24 | sig-storage-csi-snapshotter | 42 | - | 2024-12-10 22:14:36 |
-| 25 | sig-storage-hello-populator | 6 | - | 2024-12-10 22:14:36 |
-| 26 | sig-storage-hostpathplugin | 18 | - | 2024-12-10 22:14:43 |
-| 27 | sig-storage-iscsiplugin | 1 | - | 2024-12-10 22:14:43 |
-| 28 | sig-storage-livenessprobe | 15 | - | 2024-12-10 22:14:53 |
-| 29 | sig-storage-local-volume-node-cleanup | 2 | - | 2024-12-10 22:14:53 |
-| 30 | sig-storage-local-volume-provisioner | 4 | - | 2024-12-10 22:14:53 |
-| 31 | sig-storage-mock-driver | 6 | - | 2024-12-10 22:14:53 |
-| 32 | sig-storage-nfs-provisioner | 4 | - | 2024-12-10 22:14:53 |
-| 33 | sig-storage-nfs-subdir-external-provisioner | 3 | - | 2024-12-10 22:14:53 |
-| 34 | sig-storage-nfsplugin | 12 | - | 2024-12-10 22:15:04 |
-| 35 | sig-storage-smbplugin | 13 | - | 2024-12-10 22:15:08 |
-| 36 | sig-storage-snapshot-controller | 37 | - | 2024-12-10 22:15:08 |
-| 37 | sig-storage-snapshot-validation-webhook | 29 | - | 2024-12-10 22:15:08 |
-| 38 | sig-storage-volume-data-source-validator | 6 | - | 2024-12-10 22:15:08 |
-| 39 | skydns | 3 | - | 2024-12-10 22:15:08 |
-| 40 | skydns-amd64 | 1 | - | 2024-12-10 22:15:08 |
-| 41 | skydns-arm | 2 | - | 2024-12-10 22:15:08 |
-| 42 | skydns-arm64 | 1 | - | 2024-12-10 22:15:08 |
-| 43 | skydns-ppc64le | 1 | - | 2024-12-10 22:15:08 |
-| 44 | slack-infra-slack-event-log | 1 | - | 2024-12-10 22:15:08 |
-| 45 | slack-infra-slack-moderator | 2 | - | 2024-12-10 22:15:08 |
-| 46 | slack-infra-slack-report-message | 2 | - | 2024-12-10 22:15:08 |
-| 47 | slack-infra-slack-welcomer | 2 | - | 2024-12-10 22:15:08 |
-| 48 | slack-infra-tempelis | 2 | - | 2024-12-10 22:15:08 |
-| 49 | slo-monitor | 8 | - | 2024-12-10 22:15:08 |
-| 50 | spark | 3 | - | 2024-12-10 22:15:09 |
-| 51 | spark-base | 6 | - | 2024-12-10 22:15:11 |
-| 52 | spark-driver | 6 | - | 2024-12-10 22:15:11 |
-| 53 | spark-master | 6 | - | 2024-12-10 22:15:15 |
-| 54 | spark-worker | 6 | - | 2024-12-10 22:15:16 |
-| 55 | spartakus-amd64 | 4 | - | 2024-12-10 22:15:16 |
-| 56 | startup-script | 2 | - | 2024-12-10 22:15:16 |
-| 57 | storage-migrator-storage-version-migration-initializer | 3 | - | 2024-12-10 22:15:16 |
-| 58 | storage-migrator-storage-version-migration-migrator | 3 | - | 2024-12-10 22:15:16 |
-| 59 | storage-migrator-storage-version-migration-trigger | 3 | - | 2024-12-10 22:15:17 |
-| 60 | storage-csi-attacher | 1 | - | 2024-12-10 22:15:17 |
-| 61 | storage-csi-node-driver-registrar | 2 | - | 2024-12-10 22:15:17 |
-| 62 | storage-csi-provisioner | 3 | - | 2024-12-10 22:15:17 |
-| 63 | storage-csi-resizer | 2 | - | 2024-12-10 22:15:17 |
-| 64 | storage-csi-snapshotter | 3 | - | 2024-12-10 22:15:18 |
-| 65 | storage-livenessprobe | 1 | - | 2024-12-10 22:15:18 |
-| 66 | storage-mock-driver | 1 | - | 2024-12-10 22:15:18 |
-| 67 | stress | 1 | - | 2024-12-10 22:15:18 |
-| 68 | submit-queue | 68 | - | 2024-12-10 22:16:28 |
-| 69 | tejolote-tejolote | 3 | - | 2024-12-10 22:16:28 |
-| 70 | tensorflow-gpu-notebook | 2 | - | 2024-12-10 22:16:28 |
-| 71 | test-webserver | 2 | - | 2024-12-10 22:16:28 |
-| 72 | test_subdir_1-test_subdir_2-test_image | 1 | - | 2024-12-10 22:16:28 |
-| 73 | tf-models | 1 | - | 2024-12-10 22:16:28 |
-| 74 | tiny-glibc-amd64 | 1 | - | 2024-12-10 22:16:28 |
-| 75 | tiny-glibc-arm | 1 | - | 2024-12-10 22:16:28 |
-| 76 | tiny-glibc-arm64 | 1 | - | 2024-12-10 22:16:28 |
-| 77 | tiny-glibc-ppc64le | 1 | - | 2024-12-10 22:16:28 |
-| 78 | toolbox | 15 | - | 2024-12-10 22:16:28 |
-| 79 | ubuntu | 1 | - | 2024-12-10 22:16:28 |
-| 80 | ubuntu-nvidia-driver-installer | 53 | - | 2024-12-10 22:16:28 |
-| 81 | ubuntu-slim | 15 | - | 2024-12-10 22:16:28 |
-| 82 | ubuntu-slim-amd64 | 6 | - | 2024-12-10 22:16:28 |
-| 83 | ubuntu-slim-arm | 6 | - | 2024-12-10 22:16:28 |
-| 84 | ubuntu-slim-arm64 | 6 | - | 2024-12-10 22:16:28 |
-| 85 | ubuntu-slim-ppc64le | 6 | - | 2024-12-10 22:16:28 |
-| 86 | update-demo | 2 | - | 2024-12-10 22:16:28 |
-| 87 | visio-stencil-creator | 1 | - | 2024-12-10 22:16:28 |
-| 88 | volume-ceph | 2 | - | 2024-12-10 22:16:28 |
-| 89 | volume-csi-compute-persistent-disk-csi-driver | 2 | - | 2024-12-10 22:16:28 |
-| 90 | volume-csi-gcp-compute-persistent-disk-csi-driver | 1 | - | 2024-12-10 22:16:28 |
-| 91 | volume-csi-gcp-filestore-csi-driver | 1 | - | 2024-12-10 22:16:28 |
-| 92 | volume-gluster | 6 | - | 2024-12-10 22:16:29 |
-| 93 | volume-iscsi | 3 | - | 2024-12-10 22:16:29 |
-| 94 | volume-nfs | 8 | - | 2024-12-10 22:16:31 |
-| 95 | volume-rbd | 3 | - | 2024-12-10 22:16:31 |
-| 96 | vpa-admission-controller | 11 | - | 2024-12-10 22:16:32 |
-| 97 | vpa-recommender | 11 | - | 2024-12-10 22:16:33 |
-| 98 | vpa-updater | 11 | - | 2024-12-10 22:16:33 |
-| 99 | watcher-daemonset | 7 | - | 2024-12-10 22:16:33 |
-| 100 | webhooks-publisher | 3 | - | 2024-12-10 22:16:33 |
-| 101 | zeitgeist-bouy | 2 | - | 2024-12-10 22:16:33 |
-| 102 | zeitgeist-zeitgeist | 2 | - | 2024-12-10 22:16:33 |
-| 103 | zeppelin | 11 | - | 2024-12-10 22:16:38 |
-| 104 | zeppelin-proxy | 3 | - | 2024-12-10 22:16:38 |
-| 105 | zookeeper-install | 1 | - | 2024-12-10 22:16:38 |
-| 106 | zookeeper-install-3.5.0-alpha | 1 | - | 2024-12-10 22:16:38 |
+| 1 | addon-builder | 4 | - | 2024-12-11 01:27:14 |
+| 2 | addon-manager-kube-addon-manager | 5 | - | 2024-12-11 01:27:14 |
+| 3 | addon-manager-kube-addon-manager-amd64 | 5 | - | 2024-12-11 01:27:14 |
+| 4 | addon-manager-kube-addon-manager-arm | 5 | - | 2024-12-11 01:27:14 |
+| 5 | addon-manager-kube-addon-manager-arm64 | 5 | - | 2024-12-11 01:27:14 |
+| 6 | addon-manager-kube-addon-manager-ppc64le | 5 | - | 2024-12-11 01:27:14 |
+| 7 | addon-manager-kube-addon-manager-s390x | 5 | - | 2024-12-11 01:27:15 |
+| 8 | addon-resizer | 23 | - | 2024-12-11 01:27:23 |
+| 9 | addon-resizer-amd64 | 2 | - | 2024-12-11 01:27:23 |
+| 10 | addon-resizer-arm | 2 | - | 2024-12-11 01:27:23 |
+| 11 | addon-resizer-arm64 | 2 | - | 2024-12-11 01:27:23 |
+| 12 | addon-resizer-ppc64le | 2 | - | 2024-12-11 01:27:23 |
+| 13 | addon-resizer-s390x | 2 | - | 2024-12-11 01:27:23 |
+| 14 | aggregator | 1 | - | 2024-12-11 01:27:23 |
+| 15 | alpine-iptables-amd64 | 1 | - | 2024-12-11 01:27:23 |
+| 16 | alpine-iptables-arm | 1 | - | 2024-12-11 01:27:23 |
+| 17 | alpine-iptables-arm64 | 1 | - | 2024-12-11 01:27:23 |
+| 18 | alpine-with-bash | 1 | - | 2024-12-11 01:27:23 |
+| 19 | apisnoop-auditlogger | 1 | - | 2024-12-11 01:27:23 |
+| 20 | apisnoop-snoopdb | 2 | - | 2024-12-11 01:27:23 |
+| 21 | apparmor-loader | 3 | - | 2024-12-11 01:27:23 |
+| 22 | artifact-promoter-cip | 20 | - | 2024-12-11 01:27:35 |
+| 23 | artifact-promoter-cip-auditor | 11 | - | 2024-12-11 01:27:35 |
+| 24 | artifact-promoter-kpromo | 40 | - | 2024-12-11 01:27:35 |
+| 25 | artifact-promoter-kpromo-auditor | 31 | - | 2024-12-11 01:27:35 |
+| 26 | artifact-promoter-vulndash | 5 | - | 2024-12-11 01:27:35 |
+| 27 | autoscaling-addon-resizer | 13 | - | 2024-12-11 01:27:40 |
+| 28 | autoscaling-addon-resizer-amd64 | 13 | - | 2024-12-11 01:27:40 |
+| 29 | autoscaling-addon-resizer-arm | 13 | - | 2024-12-11 01:27:40 |
+| 30 | autoscaling-addon-resizer-arm64 | 13 | - | 2024-12-11 01:27:41 |
+| 31 | autoscaling-addon-resizer-ppc64le | 13 | - | 2024-12-11 01:27:41 |
+| 32 | autoscaling-addon-resizer-s390x | 13 | - | 2024-12-11 01:27:42 |
+| 33 | autoscaling-cluster-autoscaler | 77 | - | 2024-12-11 01:27:57 |
+| 34 | autoscaling-cluster-autoscaler-amd64 | 62 | - | 2024-12-11 01:27:57 |
+| 35 | autoscaling-cluster-autoscaler-arm64 | 62 | - | 2024-12-11 01:27:57 |
+| 36 | autoscaling-cluster-autoscaler-s390x | 25 | - | 2024-12-11 01:27:57 |
+| 37 | autoscaling-vpa-admission-controller | 15 | - | 2024-12-11 01:28:07 |
+| 38 | autoscaling-vpa-admission-controller-amd64 | 13 | - | 2024-12-11 01:28:07 |
+| 39 | autoscaling-vpa-admission-controller-arm | 13 | - | 2024-12-11 01:28:07 |
+| 40 | autoscaling-vpa-admission-controller-arm64 | 13 | - | 2024-12-11 01:28:07 |
+| 41 | autoscaling-vpa-admission-controller-ppc64le | 13 | - | 2024-12-11 01:28:07 |
+| 42 | autoscaling-vpa-admission-controller-s390x | 13 | - | 2024-12-11 01:28:08 |
+| 43 | autoscaling-vpa-recommender | 15 | - | 2024-12-11 01:28:23 |
+| 44 | autoscaling-vpa-recommender-amd64 | 13 | - | 2024-12-11 01:28:23 |
+| 45 | autoscaling-vpa-recommender-arm | 13 | - | 2024-12-11 01:28:23 |
+| 46 | autoscaling-vpa-recommender-arm64 | 13 | - | 2024-12-11 01:28:23 |
+| 47 | autoscaling-vpa-recommender-ppc64le | 13 | - | 2024-12-11 01:28:23 |
+| 48 | autoscaling-vpa-recommender-s390x | 13 | - | 2024-12-11 01:28:23 |
+| 49 | autoscaling-vpa-updater | 15 | - | 2024-12-11 01:28:37 |
+| 50 | autoscaling-vpa-updater-amd64 | 13 | - | 2024-12-11 01:28:37 |
+| 51 | autoscaling-vpa-updater-arm | 13 | - | 2024-12-11 01:28:37 |
+| 52 | autoscaling-vpa-updater-arm64 | 13 | - | 2024-12-11 01:28:37 |
+| 53 | autoscaling-vpa-updater-ppc64le | 13 | - | 2024-12-11 01:28:39 |
+| 54 | autoscaling-vpa-updater-s390x | 13 | - | 2024-12-11 01:28:39 |
+| 55 | bom-bom | 6 | - | 2024-12-11 01:28:39 |
+| 56 | build-image-debian-base | 31 | - | 2024-12-11 01:29:01 |
+| 57 | build-image-debian-base-amd64 | 32 | - | 2024-12-11 01:29:05 |
+| 58 | build-image-debian-base-arm | 32 | - | 2024-12-11 01:29:05 |
+| 59 | build-image-debian-base-arm64 | 32 | - | 2024-12-11 01:29:15 |
+| 60 | build-image-debian-base-ppc64le | 32 | - | 2024-12-11 01:29:35 |
+| 61 | build-image-debian-base-s390x | 32 | - | 2024-12-11 01:29:35 |
+| 62 | build-image-debian-hyperkube-base | 10 | - | 2024-12-11 01:29:35 |
+| 63 | build-image-debian-hyperkube-base-amd64 | 10 | - | 2024-12-11 01:29:35 |
+| 64 | build-image-debian-hyperkube-base-arm | 10 | - | 2024-12-11 01:29:35 |
+| 65 | build-image-debian-hyperkube-base-arm64 | 10 | - | 2024-12-11 01:29:35 |
+| 66 | build-image-debian-hyperkube-base-ppc64le | 10 | - | 2024-12-11 01:29:35 |
+| 67 | build-image-debian-hyperkube-base-s390x | 10 | - | 2024-12-11 01:29:35 |
+| 68 | build-image-debian-iptables | 33 | - | 2024-12-11 01:30:06 |
+| 69 | build-image-debian-iptables-amd64 | 34 | - | 2024-12-11 01:30:06 |
+| 70 | build-image-debian-iptables-arm | 34 | - | 2024-12-11 01:30:32 |
+| 71 | build-image-debian-iptables-arm64 | 34 | - | 2024-12-11 01:30:42 |
+| 72 | build-image-debian-iptables-ppc64le | 34 | - | 2024-12-11 01:30:48 |
+| 73 | build-image-debian-iptables-s390x | 34 | - | 2024-12-11 01:31:04 |
+| 74 | build-image-distroless-iptables | 45 | - | 2024-12-11 01:31:04 |
+| 75 | build-image-distroless-iptables-amd64 | 40 | - | 2024-12-11 01:31:04 |
+| 76 | build-image-distroless-iptables-arm | 40 | - | 2024-12-11 01:31:04 |
+| 77 | build-image-distroless-iptables-arm64 | 40 | - | 2024-12-11 01:31:04 |
+| 78 | build-image-distroless-iptables-ppc64le | 40 | - | 2024-12-11 01:31:04 |
+| 79 | build-image-distroless-iptables-s390x | 40 | - | 2024-12-11 01:31:04 |
+| 80 | build-image-gcb-docker-gcloud-test-augustus | 1 | - | 2024-12-11 01:31:04 |
+| 81 | build-image-go-runner | 140 | - | 2024-12-11 01:31:04 |
+| 82 | build-image-go-runner-amd64 | 85 | - | 2024-12-11 01:31:04 |
+| 83 | build-image-go-runner-arm | 85 | - | 2024-12-11 01:31:04 |
+| 84 | build-image-go-runner-arm64 | 85 | - | 2024-12-11 01:31:04 |
+| 85 | build-image-go-runner-ppc64le | 85 | - | 2024-12-11 01:31:04 |
+| 86 | build-image-go-runner-s390x | 85 | - | 2024-12-11 01:31:04 |
+| 87 | build-image-kube-cross | 285 | - | 2024-12-11 01:31:16 |
+| 88 | build-image-kube-cross-amd64 | 176 | - | 2024-12-11 01:31:16 |
+| 89 | build-image-kube-cross-arm64 | 175 | - | 2024-12-11 01:31:19 |
+| 90 | build-image-kube-cross-ppc64le | 164 | - | 2024-12-11 01:31:39 |
+| 91 | build-image-kube-cross-s390x | 160 | - | 2024-12-11 01:31:39 |
+| 92 | build-image-setcap | 18 | - | 2024-12-11 01:31:48 |
+| 93 | build-image-setcap-amd64 | 15 | - | 2024-12-11 01:31:48 |
+| 94 | build-image-setcap-arm | 15 | - | 2024-12-11 01:31:56 |
+| 95 | build-image-setcap-arm64 | 15 | - | 2024-12-11 01:31:57 |
+| 96 | build-image-setcap-ppc64le | 15 | - | 2024-12-11 01:32:05 |
+| 97 | build-image-setcap-s390x | 15 | - | 2024-12-11 01:32:05 |
+| 98 | busybox | 4 | - | 2024-12-11 01:32:05 |
+| 99 | cadvisor | 31 | - | 2024-12-11 01:32:28 |
+| 100 | capi-cloudstack-capi-cloudstack-controller | 1 | - | 2024-12-11 01:32:28 |
+| 101 | capi-docker-capd-manager | 1 | - | 2024-12-11 01:32:28 |
+| 102 | capi-ibmcloud-cluster-api-ibmcloud-controller | 19 | - | 2024-12-11 01:32:28 |
+| 103 | capi-kubeadm-cluster-api-kubeadm-controller | 8 | - | 2024-12-11 01:32:28 |
+| 104 | capi-kubeadm-cluster-api-kubeadm-controller-amd64 | 1 | - | 2024-12-11 01:32:28 |
+| 105 | capi-kubeadm-cluster-api-kubeadm-controller-arm | 1 | - | 2024-12-11 01:32:28 |
+| 106 | capi-kubeadm-cluster-api-kubeadm-controller-arm64 | 1 | - | 2024-12-11 01:32:28 |
+| 107 | capi-kubeadm-cluster-api-kubeadm-controller-ppc64le | 1 | - | 2024-12-11 01:32:28 |
+| 108 | capi-kubeadm-cluster-api-kubeadm-controller-s390x | 1 | - | 2024-12-11 01:32:28 |
+| 109 | capi-openstack-capi-openstack-controller | 48 | - | 2024-12-11 01:32:28 |
+| 110 | capi-operator-cluster-api-operator | 19 | - | 2024-12-11 01:32:28 |
 
 Support
 -------
