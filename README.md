@@ -1,4 +1,4 @@
-Google Containers Registry heptio-images Mirrors [last sync 2024-12-31 17:10:22]
+Google Containers Registry heptio-images Mirrors [last sync 2025-01-01 16:11:50]
 -------
 
 [![heptio-images](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-heptio-images.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-heptio-images.yml)
@@ -24,61 +24,61 @@ Total of 55's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | alpine | 1 | - | 2024-12-31 17:10:00 |
-| 2 | ark | 38 | - | 2024-12-31 17:10:00 |
-| 3 | ark-restic-restore-helper | 23 | - | 2024-12-31 17:10:01 |
-| 4 | authenticator | 9 | - | 2024-12-31 17:10:01 |
-| 5 | contour | 41 | - | 2024-12-31 17:10:01 |
-| 6 | contour-discoverer | 4 | - | 2024-12-31 17:10:01 |
-| 7 | cruise | 1 | - | 2024-12-31 17:10:01 |
-| 8 | dizzy | 2 | - | 2024-12-31 17:10:01 |
-| 9 | eventrouter | 4 | - | 2024-12-31 17:10:02 |
-| 10 | forwarder | 4 | - | 2024-12-31 17:10:02 |
-| 11 | fsfreeze-pause | 17 | - | 2024-12-31 17:10:02 |
-| 12 | gangway | 13 | - | 2024-12-31 17:10:03 |
-| 13 | gimbal-discoverer | 24 | - | 2024-12-31 17:10:14 |
-| 14 | golang | 4 | - | 2024-12-31 17:10:14 |
-| 15 | hept-arkext | 211 | - | 2024-12-31 17:10:14 |
-| 16 | hept-arkext-server | 5 | - | 2024-12-31 17:10:14 |
-| 17 | hept-audit-consumer | 1 | - | 2024-12-31 17:10:14 |
-| 18 | hept-auditext | 442 | - | 2024-12-31 17:10:14 |
-| 19 | hept-ext-manager | 270 | - | 2024-12-31 17:10:14 |
-| 20 | hept-forwarder | 309 | - | 2024-12-31 17:10:14 |
-| 21 | hept-health-collector | 67 | - | 2024-12-31 17:10:14 |
-| 22 | hept-magpie | 222 | - | 2024-12-31 17:10:14 |
-| 23 | hept-sonoext | 418 | - | 2024-12-31 17:10:14 |
-| 24 | hept-terminate | 298 | - | 2024-12-31 17:10:14 |
-| 25 | hept-updater | 279 | - | 2024-12-31 17:10:14 |
-| 26 | heptio-e2e | 6 | - | 2024-12-31 17:10:14 |
-| 27 | hq-demo-disk-filler | 13 | - | 2024-12-31 17:10:14 |
-| 28 | hq-sonoext | 7 | - | 2024-12-31 17:10:14 |
-| 29 | hq-sync-agent | 142 | - | 2024-12-31 17:10:14 |
-| 30 | hq-watch | 34 | - | 2024-12-31 17:10:14 |
-| 31 | ironclad | 2 | - | 2024-12-31 17:10:14 |
-| 32 | jenkins-agent | 1 | - | 2024-12-31 17:10:14 |
-| 33 | ks-guestbook-demo | 2 | - | 2024-12-31 17:10:14 |
-| 34 | kube-conformance | 31 | - | 2024-12-31 17:10:14 |
-| 35 | lifecycler | 2 | - | 2024-12-31 17:10:14 |
-| 36 | magpie | 48 | - | 2024-12-31 17:10:14 |
-| 37 | namespace-deleter | 3 | - | 2024-12-31 17:10:14 |
-| 38 | p8s-test | 2 | - | 2024-12-31 17:10:14 |
-| 39 | rate-limit | 1 | - | 2024-12-31 17:10:14 |
-| 40 | ratelimit | 2 | - | 2024-12-31 17:10:15 |
-| 41 | restic-init-container | 1 | - | 2024-12-31 17:10:15 |
-| 42 | sample-cluster | 3 | - | 2024-12-31 17:10:15 |
-| 43 | scanner-forwarder | 2 | - | 2024-12-31 17:10:15 |
-| 44 | sonobuoy | 374 | - | 2024-12-31 17:10:22 |
-| 45 | sonobuoy-amd64 | 149 | - | 2024-12-31 17:10:22 |
-| 46 | sonobuoy-arm64 | 147 | - | 2024-12-31 17:10:22 |
-| 47 | sonobuoy-plugin-conformance | 2 | - | 2024-12-31 17:10:22 |
-| 48 | sonobuoy-plugin-hostfacts | 1 | - | 2024-12-31 17:10:22 |
-| 49 | sonobuoy-plugin-systemd-logs | 3 | - | 2024-12-31 17:10:22 |
-| 50 | sonobuoy-plugin-systemd-logs-amd64 | 2 | - | 2024-12-31 17:10:22 |
-| 51 | sonobuoy-plugin-systemd-logs-arm64 | 2 | - | 2024-12-31 17:10:22 |
-| 52 | sonobuoy-plugin-systemd-logs-ppc64le | 2 | - | 2024-12-31 17:10:22 |
-| 53 | test-proj | 1 | - | 2024-12-31 17:10:22 |
-| 54 | velero | 13 | - | 2024-12-31 17:10:22 |
-| 55 | velero-restic-restore-helper | 13 | - | 2024-12-31 17:10:22 |
+| 1 | alpine | 1 | - | 2025-01-01 16:10:58 |
+| 2 | ark | 38 | - | 2025-01-01 16:10:58 |
+| 3 | ark-restic-restore-helper | 23 | - | 2025-01-01 16:10:58 |
+| 4 | authenticator | 9 | - | 2025-01-01 16:10:58 |
+| 5 | contour | 41 | - | 2025-01-01 16:10:59 |
+| 6 | contour-discoverer | 4 | - | 2025-01-01 16:10:59 |
+| 7 | cruise | 1 | - | 2025-01-01 16:10:59 |
+| 8 | dizzy | 2 | - | 2025-01-01 16:10:59 |
+| 9 | eventrouter | 4 | - | 2025-01-01 16:11:00 |
+| 10 | forwarder | 4 | - | 2025-01-01 16:11:00 |
+| 11 | fsfreeze-pause | 17 | - | 2025-01-01 16:11:01 |
+| 12 | gangway | 13 | - | 2025-01-01 16:11:04 |
+| 13 | gimbal-discoverer | 24 | - | 2025-01-01 16:11:34 |
+| 14 | golang | 4 | - | 2025-01-01 16:11:34 |
+| 15 | hept-arkext | 211 | - | 2025-01-01 16:11:34 |
+| 16 | hept-arkext-server | 5 | - | 2025-01-01 16:11:34 |
+| 17 | hept-audit-consumer | 1 | - | 2025-01-01 16:11:34 |
+| 18 | hept-auditext | 442 | - | 2025-01-01 16:11:34 |
+| 19 | hept-ext-manager | 270 | - | 2025-01-01 16:11:34 |
+| 20 | hept-forwarder | 309 | - | 2025-01-01 16:11:34 |
+| 21 | hept-health-collector | 67 | - | 2025-01-01 16:11:34 |
+| 22 | hept-magpie | 222 | - | 2025-01-01 16:11:34 |
+| 23 | hept-sonoext | 418 | - | 2025-01-01 16:11:34 |
+| 24 | hept-terminate | 298 | - | 2025-01-01 16:11:34 |
+| 25 | hept-updater | 279 | - | 2025-01-01 16:11:34 |
+| 26 | heptio-e2e | 6 | - | 2025-01-01 16:11:34 |
+| 27 | hq-demo-disk-filler | 13 | - | 2025-01-01 16:11:34 |
+| 28 | hq-sonoext | 7 | - | 2025-01-01 16:11:34 |
+| 29 | hq-sync-agent | 142 | - | 2025-01-01 16:11:34 |
+| 30 | hq-watch | 34 | - | 2025-01-01 16:11:34 |
+| 31 | ironclad | 2 | - | 2025-01-01 16:11:34 |
+| 32 | jenkins-agent | 1 | - | 2025-01-01 16:11:34 |
+| 33 | ks-guestbook-demo | 2 | - | 2025-01-01 16:11:34 |
+| 34 | kube-conformance | 31 | - | 2025-01-01 16:11:34 |
+| 35 | lifecycler | 2 | - | 2025-01-01 16:11:34 |
+| 36 | magpie | 48 | - | 2025-01-01 16:11:34 |
+| 37 | namespace-deleter | 3 | - | 2025-01-01 16:11:34 |
+| 38 | p8s-test | 2 | - | 2025-01-01 16:11:34 |
+| 39 | rate-limit | 1 | - | 2025-01-01 16:11:34 |
+| 40 | ratelimit | 2 | - | 2025-01-01 16:11:34 |
+| 41 | restic-init-container | 1 | - | 2025-01-01 16:11:34 |
+| 42 | sample-cluster | 3 | - | 2025-01-01 16:11:34 |
+| 43 | scanner-forwarder | 2 | - | 2025-01-01 16:11:34 |
+| 44 | sonobuoy | 374 | - | 2025-01-01 16:11:50 |
+| 45 | sonobuoy-amd64 | 149 | - | 2025-01-01 16:11:50 |
+| 46 | sonobuoy-arm64 | 147 | - | 2025-01-01 16:11:50 |
+| 47 | sonobuoy-plugin-conformance | 2 | - | 2025-01-01 16:11:50 |
+| 48 | sonobuoy-plugin-hostfacts | 1 | - | 2025-01-01 16:11:50 |
+| 49 | sonobuoy-plugin-systemd-logs | 3 | - | 2025-01-01 16:11:50 |
+| 50 | sonobuoy-plugin-systemd-logs-amd64 | 2 | - | 2025-01-01 16:11:50 |
+| 51 | sonobuoy-plugin-systemd-logs-arm64 | 2 | - | 2025-01-01 16:11:50 |
+| 52 | sonobuoy-plugin-systemd-logs-ppc64le | 2 | - | 2025-01-01 16:11:50 |
+| 53 | test-proj | 1 | - | 2025-01-01 16:11:50 |
+| 54 | velero | 13 | - | 2025-01-01 16:11:50 |
+| 55 | velero-restic-restore-helper | 13 | - | 2025-01-01 16:11:50 |
 
 Support
 -------
