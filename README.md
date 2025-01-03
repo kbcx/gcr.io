@@ -1,7 +1,7 @@
-Google Containers Registry cassandra Mirrors [last sync 2025-01-03 04:26:20]
+Google Containers Registry dns Mirrors [last sync 2025-01-03 06:27:46]
 -------
 
-[![cassandra](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-cassandra.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-cassandra.yml)
+[![dns](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull cassandra/hyperkube:v1.9.6
+docker pull dns/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -24,116 +24,116 @@ Total of 110's registry.k8s.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | cassandra | 6 | - | 2025-01-03 04:13:38 |
-| 2 | cassandra-e2e-test | 1 | - | 2025-01-03 04:13:38 |
-| 3 | check-metadata-concealment | 3 | - | 2025-01-03 04:13:38 |
-| 4 | cloud-controller-manager | 301 | - | 2025-01-03 04:16:47 |
-| 5 | cloud-controller-manager-amd64 | 301 | - | 2025-01-03 04:17:08 |
-| 6 | cloud-controller-manager-arm | 301 | - | 2025-01-03 04:20:14 |
-| 7 | cloud-controller-manager-arm64 | 301 | - | 2025-01-03 04:20:23 |
-| 8 | cloud-controller-manager-ppc64le | 301 | - | 2025-01-03 04:23:42 |
-| 9 | cloud-controller-manager-s390x | 301 | - | 2025-01-03 04:23:42 |
-| 10 | cloud-provider-gcp-cloud-controller-manager | 5 | - | 2025-01-03 04:23:42 |
-| 11 | cloud-provider-gcp-gcp-compute-persistent-disk-csi-driver | 117 | - | 2025-01-03 04:23:42 |
-| 12 | cloud-provider-gcp-gcp-filestore-csi-driver | 83 | - | 2025-01-03 04:24:13 |
-| 13 | cloud-provider-ibm-ibm-powervs-block-csi-driver | 12 | - | 2025-01-03 04:24:13 |
-| 14 | cloud-provider-ibm-ibm-vpc-block-csi-driver | 8 | - | 2025-01-03 04:24:13 |
-| 15 | cloudsql-authenticator | 1 | - | 2025-01-03 04:24:13 |
-| 16 | cluster-api-aure-cluster-api-azure-controller | 45 | - | 2025-01-03 04:24:21 |
-| 17 | cluster-api-aws-cluster-api-aws-controller | 80 | - | 2025-01-03 04:24:21 |
-| 18 | cluster-api-aws-cluster-api-aws-controller-amd64 | 1 | - | 2025-01-03 04:24:21 |
-| 19 | cluster-api-aws-cluster-api-aws-controller-arm | 1 | - | 2025-01-03 04:24:21 |
-| 20 | cluster-api-aws-cluster-api-aws-controller-arm64 | 1 | - | 2025-01-03 04:24:21 |
-| 21 | cluster-api-aws-cluster-api-aws-controller-ppc64le | 1 | - | 2025-01-03 04:24:21 |
-| 22 | cluster-api-aws-cluster-api-aws-controller-s390x | 1 | - | 2025-01-03 04:24:21 |
-| 23 | cluster-api-aws-eks-bootstrap-controller | 11 | - | 2025-01-03 04:24:23 |
-| 24 | cluster-api-aws-eks-controlplane-controller | 10 | - | 2025-01-03 04:24:23 |
-| 25 | cluster-api-azure-cluster-api-azure-controller | 126 | - | 2025-01-03 04:24:23 |
-| 26 | cluster-api-do-cluster-api-do-controller | 22 | - | 2025-01-03 04:24:41 |
-| 27 | cluster-api-gcp-cluster-api-gcp-controller | 23 | - | 2025-01-03 04:24:41 |
-| 28 | cluster-api-helm-cluster-api-helm-controller | 16 | - | 2025-01-03 04:24:41 |
-| 29 | cluster-api-nested-cluster-api-nested-controller | 1 | - | 2025-01-03 04:24:41 |
-| 30 | cluster-api-nested-nested-controlplane-controller | 1 | - | 2025-01-03 04:24:41 |
-| 31 | cluster-api-vsphere-cluster-api-vsphere-controller | 79 | - | 2025-01-03 04:24:41 |
-| 32 | cluster-api-cluster-api-controller | 191 | - | 2025-01-03 04:24:41 |
-| 33 | cluster-api-cluster-api-controller-amd64 | 1 | - | 2025-01-03 04:24:41 |
-| 34 | cluster-api-cluster-api-controller-arm | 1 | - | 2025-01-03 04:24:41 |
-| 35 | cluster-api-cluster-api-controller-arm64 | 1 | - | 2025-01-03 04:24:41 |
-| 36 | cluster-api-cluster-api-controller-ppc64le | 1 | - | 2025-01-03 04:24:41 |
-| 37 | cluster-api-cluster-api-controller-s390x | 1 | - | 2025-01-03 04:24:41 |
-| 38 | cluster-api-clusterctl | 108 | - | 2025-01-03 04:24:41 |
-| 39 | cluster-api-kubeadm-bootstrap-controller | 173 | - | 2025-01-03 04:24:41 |
-| 40 | cluster-api-kubeadm-control-plane-controller | 173 | - | 2025-01-03 04:24:41 |
-| 41 | cluster-api-plantuml | 1 | - | 2025-01-03 04:24:41 |
-| 42 | cluster-autoscaler | 135 | - | 2025-01-03 04:25:38 |
-| 43 | cluster-proportional-autoscaler-amd64 | 26 | - | 2025-01-03 04:25:38 |
-| 44 | cluster-proportional-autoscaler-arm | 15 | - | 2025-01-03 04:25:38 |
-| 45 | cluster-proportional-autoscaler-arm64 | 15 | - | 2025-01-03 04:25:38 |
-| 46 | cluster-proportional-autoscaler-ppc64le | 15 | - | 2025-01-03 04:25:38 |
-| 47 | clusterapi-tester | 1 | - | 2025-01-03 04:25:38 |
-| 48 | clusterregistry | 1 | - | 2025-01-03 04:25:38 |
-| 49 | conformance | 650 | - | 2025-01-03 04:25:38 |
-| 50 | conformance-amd64 | 650 | - | 2025-01-03 04:25:38 |
-| 51 | conformance-arm | 547 | - | 2025-01-03 04:25:38 |
-| 52 | conformance-arm64 | 650 | - | 2025-01-03 04:25:38 |
-| 53 | conformance-ppc64le | 650 | - | 2025-01-03 04:25:38 |
-| 54 | conformance-s390x | 650 | - | 2025-01-03 04:25:38 |
-| 55 | coredns | 30 | - | 2025-01-03 04:25:38 |
-| 56 | cos-kernel-headers | 17 | - | 2025-01-03 04:25:38 |
-| 57 | cos-nvidia-driver-install | 11 | - | 2025-01-03 04:25:38 |
-| 58 | cpa-cluster-proportional-autoscaler | 9 | - | 2025-01-03 04:25:38 |
-| 59 | cpa-cluster-proportional-autoscaler-amd64 | 4 | - | 2025-01-03 04:25:38 |
-| 60 | cpa-cluster-proportional-autoscaler-arm | 4 | - | 2025-01-03 04:25:38 |
-| 61 | cpa-cluster-proportional-autoscaler-arm64 | 4 | - | 2025-01-03 04:25:38 |
-| 62 | cpa-cluster-proportional-autoscaler-ppc64le | 4 | - | 2025-01-03 04:25:38 |
-| 63 | cpa-cpvpa | 1 | - | 2025-01-03 04:25:38 |
-| 64 | cpa-cpvpa-amd64 | 2 | - | 2025-01-03 04:25:38 |
-| 65 | cpa-cpvpa-arm | 2 | - | 2025-01-03 04:25:38 |
-| 66 | cpa-cpvpa-arm64 | 2 | - | 2025-01-03 04:25:38 |
-| 67 | cpa-cpvpa-ppc64le | 2 | - | 2025-01-03 04:25:38 |
-| 68 | cpvpa-amd64 | 6 | - | 2025-01-03 04:25:38 |
-| 69 | csi-secrets-store-driver | 41 | - | 2025-01-03 04:25:38 |
-| 70 | csi-secrets-store-driver-crds | 29 | - | 2025-01-03 04:25:38 |
-| 71 | csi-csi-attacher | 1 | - | 2025-01-03 04:25:38 |
-| 72 | csi-csi-node-driver-registrar | 2 | - | 2025-01-03 04:25:38 |
-| 73 | csi-csi-provisioner | 1 | - | 2025-01-03 04:25:38 |
-| 74 | csi-csi-resizer | 2 | - | 2025-01-03 04:25:38 |
-| 75 | csi-csi-snapshotter | 2 | - | 2025-01-03 04:25:39 |
-| 76 | csi-livenessprobe | 1 | - | 2025-01-03 04:25:39 |
-| 77 | csi-mock-driver | 2 | - | 2025-01-03 04:25:39 |
-| 78 | cuda-vector-add | 1 | - | 2025-01-03 04:25:39 |
-| 79 | custom-metrics-stackdriver-adapter | 15 | - | 2025-01-03 04:25:41 |
-| 80 | debian-base | 7 | - | 2025-01-03 04:25:42 |
-| 81 | debian-base-amd64 | 12 | - | 2025-01-03 04:25:42 |
-| 82 | debian-base-arm | 12 | - | 2025-01-03 04:25:44 |
-| 83 | debian-base-arm64 | 12 | - | 2025-01-03 04:25:45 |
-| 84 | debian-base-ppc64le | 12 | - | 2025-01-03 04:25:46 |
-| 85 | debian-base-s390x | 12 | - | 2025-01-03 04:25:46 |
-| 86 | debian-hyperkube-base | 4 | - | 2025-01-03 04:25:47 |
-| 87 | debian-hyperkube-base-amd64 | 16 | - | 2025-01-03 04:25:52 |
-| 88 | debian-hyperkube-base-arm | 16 | - | 2025-01-03 04:25:52 |
-| 89 | debian-hyperkube-base-arm64 | 16 | - | 2025-01-03 04:25:54 |
-| 90 | debian-hyperkube-base-ppc64le | 16 | - | 2025-01-03 04:25:56 |
-| 91 | debian-hyperkube-base-s390x | 16 | - | 2025-01-03 04:25:59 |
-| 92 | debian-iptables | 8 | - | 2025-01-03 04:25:59 |
-| 93 | debian-iptables-amd64 | 19 | - | 2025-01-03 04:26:02 |
-| 94 | debian-iptables-arm | 19 | - | 2025-01-03 04:26:04 |
-| 95 | debian-iptables-arm64 | 19 | - | 2025-01-03 04:26:09 |
-| 96 | debian-iptables-ppc64le | 19 | - | 2025-01-03 04:26:10 |
-| 97 | debian-iptables-s390x | 15 | - | 2025-01-03 04:26:12 |
-| 98 | defaultbackend | 5 | - | 2025-01-03 04:26:12 |
-| 99 | defaultbackend-amd64 | 5 | - | 2025-01-03 04:26:12 |
-| 100 | defaultbackend-arm | 5 | - | 2025-01-03 04:26:12 |
-| 101 | defaultbackend-arm64 | 5 | - | 2025-01-03 04:26:12 |
-| 102 | defaultbackend-ppc64le | 4 | - | 2025-01-03 04:26:12 |
-| 103 | defaultbackend-s390x | 2 | - | 2025-01-03 04:26:12 |
-| 104 | descheduler-descheduler | 27 | - | 2025-01-03 04:26:12 |
-| 105 | device-plugin-gpu | 20 | - | 2025-01-03 04:26:20 |
-| 106 | dns-pod-autoscaler | 1 | - | 2025-01-03 04:26:20 |
-| 107 | dns-rc-autoscaler | 2 | - | 2025-01-03 04:26:20 |
-| 108 | dns-k8s-dns-dnsmasq-nanny | 41 | - | 2025-01-03 04:26:20 |
-| 109 | dns-k8s-dns-dnsmasq-nanny-amd64 | 41 | - | 2025-01-03 04:26:20 |
-| 110 | dns-k8s-dns-dnsmasq-nanny-arm | 41 | - | 2025-01-03 04:26:20 |
+| 1 | dns-k8s-dns-dnsmasq-nanny-arm64 | 41 | - | 2025-01-03 06:25:42 |
+| 2 | dns-k8s-dns-dnsmasq-nanny-ppc64le | 41 | - | 2025-01-03 06:25:42 |
+| 3 | dns-k8s-dns-dnsmasq-nanny-s390x | 41 | - | 2025-01-03 06:25:42 |
+| 4 | dns-k8s-dns-kube-dns | 41 | - | 2025-01-03 06:25:42 |
+| 5 | dns-k8s-dns-kube-dns-amd64 | 41 | - | 2025-01-03 06:25:42 |
+| 6 | dns-k8s-dns-kube-dns-arm | 41 | - | 2025-01-03 06:25:42 |
+| 7 | dns-k8s-dns-kube-dns-arm64 | 41 | - | 2025-01-03 06:25:43 |
+| 8 | dns-k8s-dns-kube-dns-ppc64le | 41 | - | 2025-01-03 06:25:43 |
+| 9 | dns-k8s-dns-kube-dns-s390x | 41 | - | 2025-01-03 06:25:43 |
+| 10 | dns-k8s-dns-node-cache | 48 | - | 2025-01-03 06:25:43 |
+| 11 | dns-k8s-dns-node-cache-amd64 | 48 | - | 2025-01-03 06:25:43 |
+| 12 | dns-k8s-dns-node-cache-arm | 48 | - | 2025-01-03 06:25:43 |
+| 13 | dns-k8s-dns-node-cache-arm64 | 48 | - | 2025-01-03 06:25:43 |
+| 14 | dns-k8s-dns-node-cache-ppc64le | 48 | - | 2025-01-03 06:25:43 |
+| 15 | dns-k8s-dns-node-cache-s390x | 48 | - | 2025-01-03 06:25:43 |
+| 16 | dns-k8s-dns-sidecar | 41 | - | 2025-01-03 06:25:43 |
+| 17 | dns-k8s-dns-sidecar-amd64 | 41 | - | 2025-01-03 06:25:43 |
+| 18 | dns-k8s-dns-sidecar-arm | 41 | - | 2025-01-03 06:25:43 |
+| 19 | dns-k8s-dns-sidecar-arm64 | 41 | - | 2025-01-03 06:25:44 |
+| 20 | dns-k8s-dns-sidecar-ppc64le | 41 | - | 2025-01-03 06:25:44 |
+| 21 | dns-k8s-dns-sidecar-s390x | 41 | - | 2025-01-03 06:25:44 |
+| 22 | dnsmasq | 2 | - | 2025-01-03 06:25:44 |
+| 23 | dnsmasq-amd64 | 1 | - | 2025-01-03 06:25:44 |
+| 24 | dnsmasq-metrics-amd64 | 2 | - | 2025-01-03 06:25:44 |
+| 25 | dnsmasq-metrics-arm | 1 | - | 2025-01-03 06:25:44 |
+| 26 | dnsmasq-metrics-arm64 | 1 | - | 2025-01-03 06:25:44 |
+| 27 | dnsmasq-metrics-ppc64le | 1 | - | 2025-01-03 06:25:44 |
+| 28 | dnsutils | 3 | - | 2025-01-03 06:25:45 |
+| 29 | e2e-net-amd64 | 1 | - | 2025-01-03 06:25:45 |
+| 30 | e2e-test-images-agnhost | 29 | - | 2025-01-03 06:25:45 |
+| 31 | e2e-test-images-apparmor-loader | 4 | - | 2025-01-03 06:25:45 |
+| 32 | e2e-test-images-busybox | 5 | - | 2025-01-03 06:25:45 |
+| 33 | e2e-test-images-cuda-vector-add | 4 | - | 2025-01-03 06:25:45 |
+| 34 | e2e-test-images-echoserver | 3 | - | 2025-01-03 06:25:45 |
+| 35 | e2e-test-images-glusterdynamic-provisioner | 2 | - | 2025-01-03 06:25:45 |
+| 36 | e2e-test-images-httpd | 8 | - | 2025-01-03 06:25:45 |
+| 37 | e2e-test-images-ipc-utils | 2 | - | 2025-01-03 06:25:45 |
+| 38 | e2e-test-images-jessie-dnsutils | 5 | - | 2025-01-03 06:25:46 |
+| 39 | e2e-test-images-kitten | 3 | - | 2025-01-03 06:25:46 |
+| 40 | e2e-test-images-metadata-concealment | 2 | - | 2025-01-03 06:25:46 |
+| 41 | e2e-test-images-nautilus | 3 | - | 2025-01-03 06:25:46 |
+| 42 | e2e-test-images-nginx | 11 | - | 2025-01-03 06:25:49 |
+| 43 | e2e-test-images-node-perf-npb-ep | 2 | - | 2025-01-03 06:25:49 |
+| 44 | e2e-test-images-node-perf-npb-is | 2 | - | 2025-01-03 06:25:49 |
+| 45 | e2e-test-images-node-perf-tf-wide-deep | 3 | - | 2025-01-03 06:25:49 |
+| 46 | e2e-test-images-nonewprivs | 2 | - | 2025-01-03 06:25:49 |
+| 47 | e2e-test-images-nonroot | 3 | - | 2025-01-03 06:25:49 |
+| 48 | e2e-test-images-perl | 1 | - | 2025-01-03 06:25:49 |
+| 49 | e2e-test-images-pets-peer-finder | 1 | - | 2025-01-03 06:25:49 |
+| 50 | e2e-test-images-pets-redis-installer | 1 | - | 2025-01-03 06:25:49 |
+| 51 | e2e-test-images-pets-zookeeper-installer | 1 | - | 2025-01-03 06:25:49 |
+| 52 | e2e-test-images-redis | 3 | - | 2025-01-03 06:25:49 |
+| 53 | e2e-test-images-regression-issue-74839 | 1 | - | 2025-01-03 06:25:49 |
+| 54 | e2e-test-images-resource-consumer | 6 | - | 2025-01-03 06:25:49 |
+| 55 | e2e-test-images-sample-apiserver | 6 | - | 2025-01-03 06:25:49 |
+| 56 | e2e-test-images-sample-device-plugin | 4 | - | 2025-01-03 06:25:49 |
+| 57 | e2e-test-images-volume-gluster | 2 | - | 2025-01-03 06:25:50 |
+| 58 | e2e-test-images-volume-iscsi | 5 | - | 2025-01-03 06:25:50 |
+| 59 | e2e-test-images-volume-nfs | 3 | - | 2025-01-03 06:25:50 |
+| 60 | e2e-test-images-volume-rbd | 3 | - | 2025-01-03 06:25:50 |
+| 61 | echoserver | 11 | - | 2025-01-03 06:25:51 |
+| 62 | echoserver-amd64 | 3 | - | 2025-01-03 06:25:51 |
+| 63 | echoserver-arm | 1 | - | 2025-01-03 06:25:51 |
+| 64 | echoserver-ppc64le | 1 | - | 2025-01-03 06:25:51 |
+| 65 | elasticsearch | 21 | - | 2025-01-03 06:25:56 |
+| 66 | eptest | 1 | - | 2025-01-03 06:25:56 |
+| 67 | etcd | 113 | - | 2025-01-03 06:25:57 |
+| 68 | etcd-amd64 | 76 | - | 2025-01-03 06:26:15 |
+| 69 | etcd-arm | 42 | - | 2025-01-03 06:26:15 |
+| 70 | etcd-arm64 | 40 | - | 2025-01-03 06:26:21 |
+| 71 | etcd-empty-dir-cleanup | 21 | - | 2025-01-03 06:26:21 |
+| 72 | etcd-ppc64le | 40 | - | 2025-01-03 06:26:25 |
+| 73 | etcd-s390x | 39 | - | 2025-01-03 06:26:31 |
+| 74 | etcd-statefulset-e2e-test | 1 | - | 2025-01-03 06:26:31 |
+| 75 | etcd-version-monitor | 5 | - | 2025-01-03 06:26:31 |
+| 76 | etcd-version-monitor-shyamjvs | 1 | - | 2025-01-03 06:26:31 |
+| 77 | etcd_monitor_shyamjvs | 1 | - | 2025-01-03 06:26:31 |
+| 78 | etcd_probe_shyamjvs | 1 | - | 2025-01-03 06:26:31 |
+| 79 | etcd_version_monitor | 1 | - | 2025-01-03 06:26:31 |
+| 80 | etcd_version_monitor_shyamjvs | 1 | - | 2025-01-03 06:26:31 |
+| 81 | etcdadm-etcd-backup | 19 | - | 2025-01-03 06:26:34 |
+| 82 | etcdadm-etcd-dump | 19 | - | 2025-01-03 06:27:37 |
+| 83 | etcdadm-etcd-manager | 20 | - | 2025-01-03 06:27:45 |
+| 84 | etcdadm-etcd-manager-slim | 4 | - | 2025-01-03 06:27:45 |
+| 85 | event-exporter | 19 | - | 2025-01-03 06:27:45 |
+| 86 | example-dns-backend | 1 | - | 2025-01-03 06:27:45 |
+| 87 | example-dns-frontend | 1 | - | 2025-01-03 06:27:45 |
+| 88 | example-guestbook-php-redis | 2 | - | 2025-01-03 06:27:45 |
+| 89 | exechealthz | 3 | - | 2025-01-03 06:27:45 |
+| 90 | exechealthz-amd64 | 5 | - | 2025-01-03 06:27:45 |
+| 91 | exechealthz-arm | 5 | - | 2025-01-03 06:27:45 |
+| 92 | exechealthz-arm64 | 4 | - | 2025-01-03 06:27:45 |
+| 93 | exechealthz-ppc64le | 4 | - | 2025-01-03 06:27:45 |
+| 94 | exechealthz-s390x | 2 | - | 2025-01-03 06:27:45 |
+| 95 | experimental-conformance | 4 | - | 2025-01-03 06:27:45 |
+| 96 | experimental-conformance-amd64 | 5 | - | 2025-01-03 06:27:45 |
+| 97 | experimental-conformance-arm | 4 | - | 2025-01-03 06:27:45 |
+| 98 | experimental-conformance-arm64 | 4 | - | 2025-01-03 06:27:45 |
+| 99 | experimental-conformance-ppc64le | 4 | - | 2025-01-03 06:27:46 |
+| 100 | experimental-conformance-s390x | 4 | - | 2025-01-03 06:27:46 |
+| 101 | experimental-kube-apiserver | 4 | - | 2025-01-03 06:27:46 |
+| 102 | experimental-kube-apiserver-amd64 | 2 | - | 2025-01-03 06:27:46 |
+| 103 | experimental-kube-apiserver-arm | 4 | - | 2025-01-03 06:27:46 |
+| 104 | experimental-kube-apiserver-arm64 | 2 | - | 2025-01-03 06:27:46 |
+| 105 | experimental-kube-apiserver-ppc64le | 2 | - | 2025-01-03 06:27:46 |
+| 106 | experimental-kube-apiserver-s390x | 2 | - | 2025-01-03 06:27:46 |
+| 107 | experimental-kube-scheduler-arm | 2 | - | 2025-01-03 06:27:46 |
+| 108 | experimental-kube-scheduler-arm64 | 2 | - | 2025-01-03 06:27:46 |
+| 109 | experimental-kube-scheduler-ppc64le | 2 | - | 2025-01-03 06:27:46 |
+| 110 | experimental-kube-scheduler-s390x | 2 | - | 2025-01-03 06:27:46 |
 
 Support
 -------
