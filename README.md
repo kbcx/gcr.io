@@ -1,7 +1,7 @@
-Google Containers Registry n-way-http Mirrors [last sync 2025-01-04 19:04:06]
+Google Containers Registry security-profiles-operator Mirrors [last sync 2025-01-04 21:17:29]
 -------
 
-[![n-way-http](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-n-way-http.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-n-way-http.yml)
+[![security-profiles-operator](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull n-way-http/hyperkube:v1.9.6
+docker pull security-profiles-operator/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -18,122 +18,118 @@ From docker hub Mirrors:
 docker pull registryk8s/hyperkube:v1.9.6
 ```
 
-Total of 110's registry.k8s.io images
+Total of 106's registry.k8s.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | n-way-http | 1 | - | 2025-01-04 19:01:50 |
-| 2 | netd | 1 | - | 2025-01-04 19:01:50 |
-| 3 | netd-amd64 | 14 | - | 2025-01-04 19:01:53 |
-| 4 | netexec | 8 | - | 2025-01-04 19:01:53 |
-| 5 | netproxy | 1 | - | 2025-01-04 19:01:53 |
-| 6 | nettest | 10 | - | 2025-01-04 19:01:53 |
-| 7 | networking-ingress-gce-404-server-with-metrics-amd64 | 1 | - | 2025-01-04 19:01:53 |
-| 8 | networking-ip-masq-agent | 24 | - | 2025-01-04 19:02:08 |
-| 9 | networking-ip-masq-agent-amd64 | 2 | - | 2025-01-04 19:02:08 |
-| 10 | networking-ip-masq-agent-arm | 2 | - | 2025-01-04 19:02:08 |
-| 11 | networking-ip-masq-agent-arm64 | 2 | - | 2025-01-04 19:02:08 |
-| 12 | networking-ip-masq-agent-ppc64le | 2 | - | 2025-01-04 19:02:08 |
-| 13 | nfd-node-feature-discovery | 125 | - | 2025-01-04 19:02:08 |
-| 14 | nfd-node-feature-discovery-operator | 15 | - | 2025-01-04 19:02:08 |
-| 15 | nginx | 4 | - | 2025-01-04 19:02:08 |
-| 16 | nginx-ingress | 1 | - | 2025-01-04 19:02:08 |
-| 17 | nginx-ingress-controller | 25 | - | 2025-01-04 19:02:12 |
-| 18 | nginx-ingress-controller-amd64 | 7 | - | 2025-01-04 19:02:12 |
-| 19 | nginx-ingress-controller-arm | 7 | - | 2025-01-04 19:02:12 |
-| 20 | nginx-ingress-controller-arm64 | 4 | - | 2025-01-04 19:02:12 |
-| 21 | nginx-ingress-controller-ppc64le | 7 | - | 2025-01-04 19:02:12 |
-| 22 | nginx-scale | 2 | - | 2025-01-04 19:02:12 |
-| 23 | nginx-slim | 27 | - | 2025-01-04 19:02:20 |
-| 24 | nginx-slim-amd64 | 12 | - | 2025-01-04 19:02:20 |
-| 25 | nginx-slim-arm | 12 | - | 2025-01-04 19:02:20 |
-| 26 | nginx-slim-arm64 | 6 | - | 2025-01-04 19:02:20 |
-| 27 | nginx-slim-ppc64le | 12 | - | 2025-01-04 19:02:20 |
-| 28 | nginx-third-party | 2 | - | 2025-01-04 19:02:20 |
-| 29 | no-snat-test-amd64 | 2 | - | 2025-01-04 19:02:20 |
-| 30 | no-snat-test-proxy-amd64 | 2 | - | 2025-01-04 19:02:20 |
-| 31 | node-conformance | 4 | - | 2025-01-04 19:02:20 |
-| 32 | node-perf-dash | 3 | - | 2025-01-04 19:02:20 |
-| 33 | node-problem-detector | 23 | - | 2025-01-04 19:02:28 |
-| 34 | node-test | 1 | - | 2025-01-04 19:02:28 |
-| 35 | node-test-amd64 | 2 | - | 2025-01-04 19:02:28 |
-| 36 | node-test-arm | 2 | - | 2025-01-04 19:02:28 |
-| 37 | node-test-arm64 | 2 | - | 2025-01-04 19:02:28 |
-| 38 | nodejs-election-client | 1 | - | 2025-01-04 19:02:28 |
-| 39 | non-masquerade-daemon-amd64 | 3 | - | 2025-01-04 19:02:28 |
-| 40 | nonewprivs | 3 | - | 2025-01-04 19:02:28 |
-| 41 | nvidia-gpu-device-plugin | 67 | - | 2025-01-04 19:03:05 |
-| 42 | pause | 18 | - | 2025-01-04 19:03:05 |
-| 43 | pause-amd64 | 4 | - | 2025-01-04 19:03:05 |
-| 44 | pause-arm | 5 | - | 2025-01-04 19:03:05 |
-| 45 | pause-arm64 | 5 | - | 2025-01-04 19:03:05 |
-| 46 | pause-ppc64le | 5 | - | 2025-01-04 19:03:05 |
-| 47 | pause-s390x | 4 | - | 2025-01-04 19:03:05 |
-| 48 | peer-finder | 1 | - | 2025-01-04 19:03:05 |
-| 49 | perfdash | 14 | - | 2025-01-04 19:03:05 |
-| 50 | podmaster | 1 | - | 2025-01-04 19:03:05 |
-| 51 | porter | 4 | - | 2025-01-04 19:03:05 |
-| 52 | portforwardtester | 3 | - | 2025-01-04 19:03:05 |
-| 53 | prometheus-adapter-prometheus-adapter | 8 | - | 2025-01-04 19:03:05 |
-| 54 | prometheus-dummy-exporter | 1 | - | 2025-01-04 19:03:05 |
-| 55 | prometheus-to-sd | 32 | - | 2025-01-04 19:03:05 |
-| 56 | provider-aws-aws-ebs-csi-driver | 107 | - | 2025-01-04 19:03:57 |
-| 57 | provider-aws-cloud-controller-manager | 99 | - | 2025-01-04 19:03:57 |
-| 58 | provider-os-barbican-kms-plugin | 23 | - | 2025-01-04 19:03:57 |
-| 59 | provider-os-cinder-csi-plugin | 23 | - | 2025-01-04 19:03:57 |
-| 60 | provider-os-k8s-keystone-auth | 23 | - | 2025-01-04 19:03:57 |
-| 61 | provider-os-magnum-auto-healer | 23 | - | 2025-01-04 19:03:57 |
-| 62 | provider-os-manila-csi-plugin | 23 | - | 2025-01-04 19:03:57 |
-| 63 | provider-os-octavia-ingress-controller | 23 | - | 2025-01-04 19:03:57 |
-| 64 | provider-os-openstack-cloud-controller-manager | 23 | - | 2025-01-04 19:03:57 |
-| 65 | proxy-agent | 3 | - | 2025-01-04 19:03:57 |
-| 66 | proxy-server | 3 | - | 2025-01-04 19:03:57 |
-| 67 | proxy-to-service | 2 | - | 2025-01-04 19:03:57 |
-| 68 | publisher | 17 | - | 2025-01-04 19:03:57 |
-| 69 | publishing-bot-k8s-publishing-bot | 1 | - | 2025-01-04 19:03:57 |
-| 70 | python | 4 | - | 2025-01-04 19:03:57 |
-| 71 | queue-health-base | 2 | - | 2025-01-04 19:03:57 |
-| 72 | queue-health-graph | 12 | - | 2025-01-04 19:03:57 |
-| 73 | queue-health-poll | 5 | - | 2025-01-04 19:03:57 |
-| 74 | redis | 3 | - | 2025-01-04 19:03:57 |
-| 75 | redis-install | 2 | - | 2025-01-04 19:03:57 |
-| 76 | redis-install-3.2.0 | 1 | - | 2025-01-04 19:03:57 |
-| 77 | redis-slave | 1 | - | 2025-01-04 19:03:57 |
-| 78 | registry-promoter-test-image | 1 | - | 2025-01-04 19:03:57 |
-| 79 | releng-kubepkg | 2 | - | 2025-01-04 19:03:57 |
-| 80 | releng-kubepkg-rpm | 2 | - | 2025-01-04 19:03:57 |
-| 81 | releng-releng-ci | 109 | - | 2025-01-04 19:03:57 |
-| 82 | rescheduler | 7 | - | 2025-01-04 19:03:57 |
-| 83 | rescheduler-amd64 | 1 | - | 2025-01-04 19:03:57 |
-| 84 | rescheduler-arm | 1 | - | 2025-01-04 19:03:57 |
-| 85 | rescheduler-arm64 | 1 | - | 2025-01-04 19:03:57 |
-| 86 | rescheduler-ppc64le | 1 | - | 2025-01-04 19:03:57 |
-| 87 | rescheduler-s390x | 1 | - | 2025-01-04 19:03:57 |
-| 88 | resource_consumer | 5 | - | 2025-01-04 19:03:57 |
-| 89 | rethinkdb | 1 | - | 2025-01-04 19:03:57 |
-| 90 | scheduler-plugins-controller | 17 | - | 2025-01-04 19:03:57 |
-| 91 | scheduler-plugins-kube-scheduler | 18 | - | 2025-01-04 19:03:57 |
-| 92 | scheduler-simulator-simulator-backend | 5 | - | 2025-01-04 19:03:57 |
-| 93 | scheduler-simulator-simulator-frontend | 5 | - | 2025-01-04 19:03:57 |
-| 94 | scl-image-builder-cluster-node-image-builder-amd64 | 33 | - | 2025-01-04 19:03:57 |
-| 95 | sd-dummy-exporter | 2 | - | 2025-01-04 19:03:57 |
-| 96 | seccomp-operator-seccomp-operator | 1 | - | 2025-01-04 19:03:57 |
-| 97 | security-profiles-operator-bundle-security-profiles-operator | 15 | - | 2025-01-04 19:03:57 |
-| 98 | security-profiles-operator-bundle-security-profiles-operator-amd64 | 14 | - | 2025-01-04 19:03:57 |
-| 99 | security-profiles-operator-bundle-security-profiles-operator-arm64 | 14 | - | 2025-01-04 19:03:57 |
-| 100 | security-profiles-operator-bundle-security-profiles-operator-bundle | 11 | - | 2025-01-04 19:03:57 |
-| 101 | security-profiles-operator-bundle-security-profiles-operator-catalog | 11 | - | 2025-01-04 19:03:57 |
-| 102 | security-profiles-operator-catalog-security-profiles-operator | 15 | - | 2025-01-04 19:03:57 |
-| 103 | security-profiles-operator-catalog-security-profiles-operator-amd64 | 14 | - | 2025-01-04 19:03:57 |
-| 104 | security-profiles-operator-catalog-security-profiles-operator-arm64 | 14 | - | 2025-01-04 19:03:57 |
-| 105 | security-profiles-operator-catalog-security-profiles-operator-bundle | 11 | - | 2025-01-04 19:03:57 |
-| 106 | security-profiles-operator-catalog-security-profiles-operator-catalog | 11 | - | 2025-01-04 19:03:57 |
-| 107 | security-profiles-operator-security-profiles-operator | 15 | - | 2025-01-04 19:04:06 |
-| 108 | security-profiles-operator-security-profiles-operator-amd64 | 14 | - | 2025-01-04 19:04:06 |
-| 109 | security-profiles-operator-security-profiles-operator-arm64 | 14 | - | 2025-01-04 19:04:06 |
-| 110 | security-profiles-operator-security-profiles-operator-bundle | 11 | - | 2025-01-04 19:04:06 |
+| 1 | security-profiles-operator-security-profiles-operator-catalog | 11 | - | 2025-01-04 21:16:29 |
+| 2 | serve-hostname-amd64 | 1 | - | 2025-01-04 21:16:29 |
+| 3 | serve-hostname-arm | 1 | - | 2025-01-04 21:16:29 |
+| 4 | serve-hostname-arm64 | 1 | - | 2025-01-04 21:16:29 |
+| 5 | serve-hostname-ppc64le | 1 | - | 2025-01-04 21:16:29 |
+| 6 | serve-hostname-s390x | 1 | - | 2025-01-04 21:16:29 |
+| 7 | serve_hostname | 6 | - | 2025-01-04 21:16:30 |
+| 8 | serve_hostname-amd64 | 1 | - | 2025-01-04 21:16:30 |
+| 9 | serve_hostname-arm | 1 | - | 2025-01-04 21:16:30 |
+| 10 | serve_hostname-arm64 | 1 | - | 2025-01-04 21:16:30 |
+| 11 | serve_hostname-ppc64le | 1 | - | 2025-01-04 21:16:30 |
+| 12 | serve_hostname-s390x | 1 | - | 2025-01-04 21:16:30 |
+| 13 | servicelb | 4 | - | 2025-01-04 21:16:30 |
+| 14 | shame-mailer | 5 | - | 2025-01-04 21:16:30 |
+| 15 | shyamjvs-logexp | 1 | - | 2025-01-04 21:16:30 |
+| 16 | shyamjvs-prometheus-to-sd | 1 | - | 2025-01-04 21:16:30 |
+| 17 | sig-auth-pod-security-webhook | 3 | - | 2025-01-04 21:16:30 |
+| 18 | sig-storage-csi-attacher | 26 | - | 2025-01-04 21:16:31 |
+| 19 | sig-storage-csi-external-health-monitor-agent | 2 | - | 2025-01-04 21:16:31 |
+| 20 | sig-storage-csi-external-health-monitor-controller | 14 | - | 2025-01-04 21:16:31 |
+| 21 | sig-storage-csi-node-driver-registrar | 26 | - | 2025-01-04 21:16:32 |
+| 22 | sig-storage-csi-provisioner | 38 | - | 2025-01-04 21:16:32 |
+| 23 | sig-storage-csi-resizer | 25 | - | 2025-01-04 21:16:32 |
+| 24 | sig-storage-csi-snapshotter | 43 | - | 2025-01-04 21:16:32 |
+| 25 | sig-storage-hello-populator | 6 | - | 2025-01-04 21:16:32 |
+| 26 | sig-storage-hostpathplugin | 18 | - | 2025-01-04 21:16:41 |
+| 27 | sig-storage-iscsiplugin | 1 | - | 2025-01-04 21:16:41 |
+| 28 | sig-storage-livenessprobe | 15 | - | 2025-01-04 21:16:41 |
+| 29 | sig-storage-local-volume-node-cleanup | 2 | - | 2025-01-04 21:16:41 |
+| 30 | sig-storage-local-volume-provisioner | 4 | - | 2025-01-04 21:16:41 |
+| 31 | sig-storage-mock-driver | 6 | - | 2025-01-04 21:16:41 |
+| 32 | sig-storage-nfs-provisioner | 4 | - | 2025-01-04 21:16:41 |
+| 33 | sig-storage-nfs-subdir-external-provisioner | 3 | - | 2025-01-04 21:16:41 |
+| 34 | sig-storage-nfsplugin | 12 | - | 2025-01-04 21:16:41 |
+| 35 | sig-storage-smbplugin | 13 | - | 2025-01-04 21:16:44 |
+| 36 | sig-storage-snapshot-controller | 38 | - | 2025-01-04 21:16:44 |
+| 37 | sig-storage-snapshot-validation-webhook | 30 | - | 2025-01-04 21:16:44 |
+| 38 | sig-storage-volume-data-source-validator | 6 | - | 2025-01-04 21:16:44 |
+| 39 | skydns | 3 | - | 2025-01-04 21:16:44 |
+| 40 | skydns-amd64 | 1 | - | 2025-01-04 21:16:44 |
+| 41 | skydns-arm | 2 | - | 2025-01-04 21:16:44 |
+| 42 | skydns-arm64 | 1 | - | 2025-01-04 21:16:44 |
+| 43 | skydns-ppc64le | 1 | - | 2025-01-04 21:16:44 |
+| 44 | slack-infra-slack-event-log | 1 | - | 2025-01-04 21:16:44 |
+| 45 | slack-infra-slack-moderator | 2 | - | 2025-01-04 21:16:44 |
+| 46 | slack-infra-slack-report-message | 2 | - | 2025-01-04 21:16:44 |
+| 47 | slack-infra-slack-welcomer | 2 | - | 2025-01-04 21:16:44 |
+| 48 | slack-infra-tempelis | 2 | - | 2025-01-04 21:16:44 |
+| 49 | slo-monitor | 8 | - | 2025-01-04 21:16:44 |
+| 50 | spark | 3 | - | 2025-01-04 21:16:44 |
+| 51 | spark-base | 6 | - | 2025-01-04 21:16:46 |
+| 52 | spark-driver | 6 | - | 2025-01-04 21:16:46 |
+| 53 | spark-master | 6 | - | 2025-01-04 21:16:47 |
+| 54 | spark-worker | 6 | - | 2025-01-04 21:16:47 |
+| 55 | spartakus-amd64 | 4 | - | 2025-01-04 21:16:47 |
+| 56 | startup-script | 2 | - | 2025-01-04 21:16:47 |
+| 57 | storage-migrator-storage-version-migration-initializer | 3 | - | 2025-01-04 21:16:47 |
+| 58 | storage-migrator-storage-version-migration-migrator | 3 | - | 2025-01-04 21:16:47 |
+| 59 | storage-migrator-storage-version-migration-trigger | 3 | - | 2025-01-04 21:16:47 |
+| 60 | storage-csi-attacher | 1 | - | 2025-01-04 21:16:47 |
+| 61 | storage-csi-node-driver-registrar | 2 | - | 2025-01-04 21:16:47 |
+| 62 | storage-csi-provisioner | 3 | - | 2025-01-04 21:16:47 |
+| 63 | storage-csi-resizer | 2 | - | 2025-01-04 21:16:48 |
+| 64 | storage-csi-snapshotter | 3 | - | 2025-01-04 21:16:48 |
+| 65 | storage-livenessprobe | 1 | - | 2025-01-04 21:16:48 |
+| 66 | storage-mock-driver | 1 | - | 2025-01-04 21:16:48 |
+| 67 | stress | 1 | - | 2025-01-04 21:16:48 |
+| 68 | submit-queue | 68 | - | 2025-01-04 21:17:19 |
+| 69 | tejolote-tejolote | 3 | - | 2025-01-04 21:17:19 |
+| 70 | tensorflow-gpu-notebook | 2 | - | 2025-01-04 21:17:19 |
+| 71 | test-webserver | 2 | - | 2025-01-04 21:17:19 |
+| 72 | test_subdir_1-test_subdir_2-test_image | 1 | - | 2025-01-04 21:17:19 |
+| 73 | tf-models | 1 | - | 2025-01-04 21:17:19 |
+| 74 | tiny-glibc-amd64 | 1 | - | 2025-01-04 21:17:19 |
+| 75 | tiny-glibc-arm | 1 | - | 2025-01-04 21:17:19 |
+| 76 | tiny-glibc-arm64 | 1 | - | 2025-01-04 21:17:19 |
+| 77 | tiny-glibc-ppc64le | 1 | - | 2025-01-04 21:17:19 |
+| 78 | toolbox | 15 | - | 2025-01-04 21:17:19 |
+| 79 | ubuntu | 1 | - | 2025-01-04 21:17:19 |
+| 80 | ubuntu-nvidia-driver-installer | 53 | - | 2025-01-04 21:17:19 |
+| 81 | ubuntu-slim | 15 | - | 2025-01-04 21:17:20 |
+| 82 | ubuntu-slim-amd64 | 6 | - | 2025-01-04 21:17:20 |
+| 83 | ubuntu-slim-arm | 6 | - | 2025-01-04 21:17:20 |
+| 84 | ubuntu-slim-arm64 | 6 | - | 2025-01-04 21:17:20 |
+| 85 | ubuntu-slim-ppc64le | 6 | - | 2025-01-04 21:17:20 |
+| 86 | update-demo | 2 | - | 2025-01-04 21:17:20 |
+| 87 | visio-stencil-creator | 1 | - | 2025-01-04 21:17:20 |
+| 88 | volume-ceph | 2 | - | 2025-01-04 21:17:21 |
+| 89 | volume-csi-compute-persistent-disk-csi-driver | 2 | - | 2025-01-04 21:17:21 |
+| 90 | volume-csi-gcp-compute-persistent-disk-csi-driver | 1 | - | 2025-01-04 21:17:21 |
+| 91 | volume-csi-gcp-filestore-csi-driver | 1 | - | 2025-01-04 21:17:21 |
+| 92 | volume-gluster | 6 | - | 2025-01-04 21:17:22 |
+| 93 | volume-iscsi | 3 | - | 2025-01-04 21:17:22 |
+| 94 | volume-nfs | 8 | - | 2025-01-04 21:17:23 |
+| 95 | volume-rbd | 3 | - | 2025-01-04 21:17:23 |
+| 96 | vpa-admission-controller | 11 | - | 2025-01-04 21:17:23 |
+| 97 | vpa-recommender | 11 | - | 2025-01-04 21:17:23 |
+| 98 | vpa-updater | 11 | - | 2025-01-04 21:17:24 |
+| 99 | watcher-daemonset | 7 | - | 2025-01-04 21:17:24 |
+| 100 | webhooks-publisher | 3 | - | 2025-01-04 21:17:24 |
+| 101 | zeitgeist-bouy | 2 | - | 2025-01-04 21:17:24 |
+| 102 | zeitgeist-zeitgeist | 2 | - | 2025-01-04 21:17:24 |
+| 103 | zeppelin | 11 | - | 2025-01-04 21:17:29 |
+| 104 | zeppelin-proxy | 3 | - | 2025-01-04 21:17:29 |
+| 105 | zookeeper-install | 1 | - | 2025-01-04 21:17:29 |
+| 106 | zookeeper-install-3.5.0-alpha | 1 | - | 2025-01-04 21:17:29 |
 
 Support
 -------
