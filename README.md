@@ -1,4 +1,4 @@
-Google Containers Registry sig-storage Mirrors [last sync 2025-01-11 07:13:14]
+Google Containers Registry sig-storage Mirrors [last sync 2025-01-12 06:19:17]
 -------
 
 [![sig-storage](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-sig-storage.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-sig-storage.yml)
@@ -24,26 +24,26 @@ Total of 20's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | csi-attacher | 27 | - | 2025-01-11 07:12:51 |
-| 2 | csi-external-health-monitor-agent | 2 | - | 2025-01-11 07:12:51 |
-| 3 | csi-external-health-monitor-controller | 15 | - | 2025-01-11 07:12:51 |
-| 4 | csi-node-driver-registrar | 27 | - | 2025-01-11 07:12:51 |
-| 5 | csi-provisioner | 38 | - | 2025-01-11 07:12:51 |
-| 6 | csi-resizer | 25 | - | 2025-01-11 07:12:51 |
-| 7 | csi-snapshotter | 43 | - | 2025-01-11 07:12:52 |
-| 8 | hello-populator | 6 | - | 2025-01-11 07:12:52 |
-| 9 | hostpathplugin | 18 | - | 2025-01-11 07:13:09 |
-| 10 | iscsiplugin | 1 | - | 2025-01-11 07:13:09 |
-| 11 | livenessprobe | 16 | - | 2025-01-11 07:13:09 |
-| 12 | local-volume-provisioner | 4 | - | 2025-01-11 07:13:09 |
-| 13 | mock-driver | 6 | - | 2025-01-11 07:13:09 |
-| 14 | nfs-provisioner | 4 | - | 2025-01-11 07:13:09 |
-| 15 | nfs-subdir-external-provisioner | 3 | - | 2025-01-11 07:13:09 |
-| 16 | nfsplugin | 12 | - | 2025-01-11 07:13:09 |
-| 17 | smbplugin | 13 | - | 2025-01-11 07:13:14 |
-| 18 | snapshot-controller | 38 | - | 2025-01-11 07:13:14 |
-| 19 | snapshot-validation-webhook | 30 | - | 2025-01-11 07:13:14 |
-| 20 | volume-data-source-validator | 6 | - | 2025-01-11 07:13:14 |
+| 1 | csi-attacher | 27 | - | 2025-01-12 06:18:34 |
+| 2 | csi-external-health-monitor-agent | 2 | - | 2025-01-12 06:18:34 |
+| 3 | csi-external-health-monitor-controller | 15 | - | 2025-01-12 06:18:35 |
+| 4 | csi-node-driver-registrar | 27 | - | 2025-01-12 06:18:35 |
+| 5 | csi-provisioner | 38 | - | 2025-01-12 06:18:35 |
+| 6 | csi-resizer | 25 | - | 2025-01-12 06:18:36 |
+| 7 | csi-snapshotter | 43 | - | 2025-01-12 06:18:36 |
+| 8 | hello-populator | 6 | - | 2025-01-12 06:18:36 |
+| 9 | hostpathplugin | 18 | - | 2025-01-12 06:19:03 |
+| 10 | iscsiplugin | 1 | - | 2025-01-12 06:19:03 |
+| 11 | livenessprobe | 16 | - | 2025-01-12 06:19:03 |
+| 12 | local-volume-provisioner | 4 | - | 2025-01-12 06:19:03 |
+| 13 | mock-driver | 6 | - | 2025-01-12 06:19:03 |
+| 14 | nfs-provisioner | 4 | - | 2025-01-12 06:19:03 |
+| 15 | nfs-subdir-external-provisioner | 3 | - | 2025-01-12 06:19:03 |
+| 16 | nfsplugin | 12 | - | 2025-01-12 06:19:03 |
+| 17 | smbplugin | 13 | - | 2025-01-12 06:19:17 |
+| 18 | snapshot-controller | 38 | - | 2025-01-12 06:19:17 |
+| 19 | snapshot-validation-webhook | 30 | - | 2025-01-12 06:19:17 |
+| 20 | volume-data-source-validator | 6 | - | 2025-01-12 06:19:17 |
 
 Support
 -------
