@@ -1,4 +1,4 @@
-Google Containers Registry kustomize Mirrors [last sync 2025-01-23 03:01:00]
+Google Containers Registry kustomize Mirrors [last sync 2025-01-24 02:44:42]
 -------
 
 [![kustomize](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-kustomize.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-kustomize.yml)
@@ -24,7 +24,7 @@ Total of 1's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | kustomize | 44 | - | 2025-01-23 03:01:00 |
+| 1 | kustomize | 44 | - | 2025-01-24 02:44:42 |
 
 Support
 -------
