@@ -1,4 +1,4 @@
-Google Containers Registry kubebuilder Mirrors [last sync 2025-01-25 06:32:53]
+Google Containers Registry kubebuilder Mirrors [last sync 2025-01-25 06:42:48]
 -------
 
 [![kubebuilder](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kubebuilder.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kubebuilder.yml)
@@ -24,31 +24,31 @@ Total of 25's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | apiserver-builder | 1 | - | 2025-01-25 06:32:49 |
-| 2 | book | 5 | - | 2025-01-25 06:32:49 |
-| 3 | book1.0 | 1 | - | 2025-01-25 06:32:50 |
-| 4 | book2 | 1 | - | 2025-01-25 06:32:50 |
-| 5 | brodocs | 2 | - | 2025-01-25 06:32:50 |
-| 6 | checkerator | 7 | - | 2025-01-25 06:32:50 |
-| 7 | gendocs | 2 | - | 2025-01-25 06:32:50 |
-| 8 | gitbook | 1 | - | 2025-01-25 06:32:50 |
-| 9 | goreleaser_with_go_1.10 | 1 | - | 2025-01-25 06:32:50 |
-| 10 | goreleaser_with_go_1.11 | 1 | - | 2025-01-25 06:32:51 |
-| 11 | goreleaser_with_go_1.12.5 | 1 | - | 2025-01-25 06:32:51 |
-| 12 | kbb | 13 | - | 2025-01-25 06:32:51 |
-| 13 | kube-rbac-proxy | 78 | - | 2025-01-25 06:32:51 |
-| 14 | lint2check | 1 | - | 2025-01-25 06:32:51 |
-| 15 | pr-verifier | 12 | - | 2025-01-25 06:32:52 |
-| 16 | prow-base | 1 | - | 2025-01-25 06:32:52 |
-| 17 | thirdparty-darwin | 14 | - | 2025-01-25 06:32:52 |
-| 18 | thirdparty-darwin-amd64 | 22 | - | 2025-01-25 06:32:52 |
-| 19 | thirdparty-darwin-arm64 | 12 | - | 2025-01-25 06:32:52 |
-| 20 | thirdparty-linux | 14 | - | 2025-01-25 06:32:52 |
-| 21 | thirdparty-linux-amd64 | 22 | - | 2025-01-25 06:32:53 |
-| 22 | thirdparty-linux-arm64 | 22 | - | 2025-01-25 06:32:53 |
-| 23 | thirdparty-linux-ppc64le | 22 | - | 2025-01-25 06:32:53 |
-| 24 | triage-party-kb | 1 | - | 2025-01-25 06:32:53 |
-| 25 | upload-tests | 2 | - | 2025-01-25 06:32:53 |
+| 1 | apiserver-builder | 1 | - | 2025-01-25 06:42:46 |
+| 2 | book | 5 | - | 2025-01-25 06:42:46 |
+| 3 | book1.0 | 1 | - | 2025-01-25 06:42:46 |
+| 4 | book2 | 1 | - | 2025-01-25 06:42:46 |
+| 5 | brodocs | 2 | - | 2025-01-25 06:42:46 |
+| 6 | checkerator | 7 | - | 2025-01-25 06:42:46 |
+| 7 | gendocs | 2 | - | 2025-01-25 06:42:46 |
+| 8 | gitbook | 1 | - | 2025-01-25 06:42:47 |
+| 9 | goreleaser_with_go_1.10 | 1 | - | 2025-01-25 06:42:47 |
+| 10 | goreleaser_with_go_1.11 | 1 | - | 2025-01-25 06:42:47 |
+| 11 | goreleaser_with_go_1.12.5 | 1 | - | 2025-01-25 06:42:47 |
+| 12 | kbb | 13 | - | 2025-01-25 06:42:47 |
+| 13 | kube-rbac-proxy | 78 | - | 2025-01-25 06:42:47 |
+| 14 | lint2check | 1 | - | 2025-01-25 06:42:47 |
+| 15 | pr-verifier | 12 | - | 2025-01-25 06:42:47 |
+| 16 | prow-base | 1 | - | 2025-01-25 06:42:47 |
+| 17 | thirdparty-darwin | 14 | - | 2025-01-25 06:42:47 |
+| 18 | thirdparty-darwin-amd64 | 22 | - | 2025-01-25 06:42:47 |
+| 19 | thirdparty-darwin-arm64 | 12 | - | 2025-01-25 06:42:47 |
+| 20 | thirdparty-linux | 14 | - | 2025-01-25 06:42:48 |
+| 21 | thirdparty-linux-amd64 | 22 | - | 2025-01-25 06:42:48 |
+| 22 | thirdparty-linux-arm64 | 22 | - | 2025-01-25 06:42:48 |
+| 23 | thirdparty-linux-ppc64le | 22 | - | 2025-01-25 06:42:48 |
+| 24 | triage-party-kb | 1 | - | 2025-01-25 06:42:48 |
+| 25 | upload-tests | 2 | - | 2025-01-25 06:42:48 |
 
 Support
 -------
