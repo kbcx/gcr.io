@@ -1,4 +1,4 @@
-Google Containers Registry metrics-server Mirrors [last sync 2025-01-25 12:39:05]
+Google Containers Registry metrics-server Mirrors [last sync 2025-01-25 13:00:42]
 -------
 
 [![metrics-server](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml)
@@ -24,12 +24,12 @@ Total of 6's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | metrics-server | 18 | - | 2025-01-25 12:39:05 |
-| 2 | metrics-server-amd64 | 1 | - | 2025-01-25 12:39:05 |
-| 3 | metrics-server-arm | 1 | - | 2025-01-25 12:39:05 |
-| 4 | metrics-server-arm64 | 1 | - | 2025-01-25 12:39:05 |
-| 5 | metrics-server-ppc64le | 1 | - | 2025-01-25 12:39:05 |
-| 6 | metrics-server-s390x | 1 | - | 2025-01-25 12:39:05 |
+| 1 | metrics-server | 18 | - | 2025-01-25 13:00:41 |
+| 2 | metrics-server-amd64 | 1 | - | 2025-01-25 13:00:41 |
+| 3 | metrics-server-arm | 1 | - | 2025-01-25 13:00:41 |
+| 4 | metrics-server-arm64 | 1 | - | 2025-01-25 13:00:41 |
+| 5 | metrics-server-ppc64le | 1 | - | 2025-01-25 13:00:41 |
+| 6 | metrics-server-s390x | 1 | - | 2025-01-25 13:00:41 |
 
 Support
 -------
